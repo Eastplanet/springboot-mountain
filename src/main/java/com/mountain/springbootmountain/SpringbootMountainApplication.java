@@ -8,6 +8,7 @@ public class SpringbootMountainApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootMountainApplication.class, args);
+		System.out.println("SpringbootMountainApplication.main testing");
 	}
 
 }
