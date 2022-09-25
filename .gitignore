@@ -6,7 +6,7 @@ build/
 !**/src/test/**/build/
 
 
-application-oauth.properties
+
 
 ### STS ###
 .apt_generated
@@ -21,6 +21,8 @@ bin/
 !**/src/test/**/bin/
 
 ### IntelliJ IDEA ###
+application-oauth.properties
+
 .idea
 *.iws
 *.iml
