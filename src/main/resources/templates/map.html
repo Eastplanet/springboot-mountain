@@ -6,7 +6,7 @@
 </head>
 <body>
 <div id="map" style="width:500px;height:400px;"></div>
-<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=	730f9c060f5aafc7b1a166fe3351a5ca&libraries=services"></script>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=730f9c060f5aafc7b1a166fe3351a5ca&libraries=services"></script>
 <script>
     var container = document.getElementById('map');
     var options = {
@@ -14,7 +14,7 @@
         level: 3
     };
 
-    var map = new kakao.maps.Map(container, options);
+    var map = new kakao.maps.Map(container, options) ;
 
     // 마커를 변환된 위치에 표시합니다
     var marker = new kakao.maps.Marker({
