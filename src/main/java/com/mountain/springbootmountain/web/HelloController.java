@@ -4,12 +4,12 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.Map;
 
 @Controller
@@ -19,11 +19,29 @@ public class HelloController {
     @Autowired
     KaKaoService ks;
 
-    @GetMapping("/")
-    public String welcome(){
+    @GetMapping("/") @ResponseBody
+    public Map<String,Object> welcome(HttpServletRequest request){
         log.info("home controller");
-        return "login";
+        Map result = new HashMap<String,Object>();
+        result.put("hello","World");
+        result.put("test","data");
+        return result;
     }
+
+    @PostMapping("/post")
+    @ResponseBody
+    public Map<String,Object> welcome2(@RequestBody HashMap<String,Object> result){
+        log.info("post controller");
+
+        System.out.println("result = " + result);
+
+
+        Map result2 = new HashMap<String,Object>();
+        result2.put("hello","World");
+        result2.put("test","data");
+        return result2;
+    }
+
 
     @GetMapping("/map")
     public String map(){
