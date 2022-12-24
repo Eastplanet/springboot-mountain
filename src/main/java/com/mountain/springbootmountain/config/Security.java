@@ -1,4 +1,4 @@
-//package com.mountain.springbootmountain.config;
+//package com.Mountain.springbootmountain.config;
 //
 //import org.springframework.context.annotation.Configuration;
 //import org.springframework.security.config.annotation.web.HttpSecurityBuilder;

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+  let element = document.createElement('a');
+  let text = '테스트파일';
+  element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+  element.setAttribute('download', '파일이름.txt');
+  element.style.display = 'none'; //하이퍼링크 요소가 보이지 않도록 처리
+  document.body.appendChild(element); //DOM body요소에 하이퍼링크 부착
+  element.click(); //클릭 이벤트 트리거 - 이 시점에 다운로드 발생
+  document.body.removeChild(element); //하이퍼링크 제거
+  document.addEventListener('DOMContentLoaded', ()=>{
+    let element = document.createElement('a');
+    let text = '테스트파일';
+    element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+    element.setAttribute('download', 'download.txt');
+    element.style.display = 'none'; //하이퍼링크 요소가 보이지 않도록 처리
+    document.body.appendChild(element); //DOM body요소에 하이퍼링크 부착
+    element.click(); //클릭 이벤트 트리거 - 이 시점에 다운로드 발생
+    document.body.removeChild(element); //하이퍼링크 제거
+  })
+  document.addEventListener('DOMContentLoaded', ()=>{
+    downloadTemplate('source.html', document.documentElement.outerHTML); //현재 웹페이지 전체 소스 선택
+  })
+
+  //Download HTML Template Source
+  function downloadTemplate(filename, text) {
+    let element = document.createElement('a');
+    element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+    element.setAttribute('download', filename);
+
+    element.style.display = 'none';
+    document.body.appendChild(element);
+
+    element.click();
+
+    document.body.removeChild(element);
+  }
+
+</script>
+
+</body>
+</html>

@@ -1,14 +1,26 @@
 package com.mountain.springbootmountain.web;
 
+import com.mountain.springbootmountain.web.dto.MountainEndCount;
+import com.mountain.springbootmountain.web.dto.MountainNameResDto;
+import com.mountain.springbootmountain.web.dto.MountainStartCount;
+import com.mountain.springbootmountain.web.mountainDTO.Feature;
+import com.mountain.springbootmountain.web.mountainDTO.Mountain;
+import com.mountain.springbootmountain.web.mountainspotDTO.MountainSpot;
+import com.mountain.springbootmountain.web.pathFindDTO.Difficulty;
+import com.mountain.springbootmountain.web.pathFindDTO.Edge;
+import com.mountain.springbootmountain.web.pathFindDTO.MountainMetaData;
+import com.mountain.springbootmountain.web.pathFindDTO.Pos;
 import lombok.extern.slf4j.Slf4j;
+import net.minidev.json.parser.ParseException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -19,40 +31,253 @@ public class HelloController {
     @Autowired
     KaKaoService ks;
 
-    @GetMapping("/") @ResponseBody
-    public Map<String,Object> welcome(HttpServletRequest request){
-        log.info("home controller");
-        Map result = new HashMap<String,Object>();
-        result.put("hello","World");
-        result.put("test","data");
-        return result;
+    final private String DIR = "C:/Users/PC/OneDrive/프로젝트/springboot-mountain/src/main/resources/data/";
+    public MountainMetaData mountainMetaData = new MountainMetaData();
+    public HelloController() throws IOException, ParseException {
     }
 
-    @PostMapping("/post")
+    //welcome page
+    //테스트용
+    @GetMapping("/") @ResponseBody
+    public String welcome(HttpServletRequest request) throws IOException, ParseException {
+        log.info("home controller");
+
+        return "hello";
+    }
+
+
+
+    @GetMapping("/search") @ResponseBody
+    public ModelAndView searchPathController(Model model,@RequestParam("MNTN_NM") String name, @RequestParam("STARTNUM") int start,@RequestParam("ENDNUM")int end) throws IOException, ParseException {
+        log.info("search path controller");
+        
+        name = mountainMetaData.getMainMountainName(name);
+        System.out.println("name = " + name);
+
+        if(start > 0){
+            start--;
+        }
+        if(end > 0){
+            end --;
+        }
+
+        System.out.println("name = " + name);
+        System.out.println("start = " + start);
+        System.out.println("end = " + end);
+
+
+
+        SearchPath searchPath = new SearchPath(name,start,end);
+
+        ArrayList<ArrayList<ArrayList<Double>>> lineString = searchPath.lineString;
+
+
+        model.addAttribute("lineString",lineString);
+
+        return new ModelAndView("maprout");
+    }
+
+    private ArrayList<Edge> makeEdgeToMap(ArrayList<Edge> edges, Feature feature) {
+
+        //posList추출
+        ArrayList<ArrayList<Double>> posList = feature.getGeometry().getPaths().get(0);
+
+        Edge edge = new Edge();
+
+        //시작점 추출
+        ArrayList<Double> start = posList.get(0);
+        Pos startPos = new Pos();
+        startPos.x = start.get(0);
+        startPos.y = start.get(1);
+        edge.start = startPos;
+
+        //끝 점 추출
+        ArrayList<Double> end = posList.get(posList.size() - 1);
+        Pos endPos = new Pos();
+        endPos.x = end.get(0);
+        endPos.y = end.get(1);
+        edge.end = endPos;
+
+        //길이와 난이도, 시간 삽입
+        edge.length = feature.getAttributes().getPMNTN_LT();
+        if(feature.getAttributes().getPMNTN_DFFL().equals("쉬움")){
+            edge.difficulty = Difficulty.쉬움;
+        }
+        else if(feature.getAttributes().getPMNTN_DFFL().equals("중간")){
+            edge.difficulty = Difficulty.중간;
+        }
+        else{
+            edge.difficulty = Difficulty.어려움;
+        }
+        edge.upTime = feature.getAttributes().PMNTN_UPPL;
+        edge.downTime = feature.getAttributes().PMNTN_GODN;
+
+        edges.add(edge);
+
+        return edges;
+    }
+
+
+    @PostMapping("/path") @ResponseBody
+    public String findPath(@RequestBody HashMap<String,Object> result){
+
+        String mntn_nm = (String) result.get("MNTN_NM");
+        int start = (int)result.get("START");
+        int end = (int)result.get("END");
+
+        //path 리스트 주고 몇번 할껀지 고르게 하기
+
+
+
+        return "hello";
+    }
+
+
+    @GetMapping("/startmap")
+    public ModelAndView mountainStartCount(@RequestParam("MNTN_NM") String name, Model model){
+        log.info("mountainStartCount");
+        name = mountainMetaData.getMainMountainName(name);
+
+
+        ArrayList<ArrayList<Double>> startList = mountainMetaData.getStartList(name);
+        model.addAttribute("startList",startList);
+
+        return new ModelAndView("startmap");
+    }
+
+    @GetMapping("/endmap")
+    public ModelAndView mountainEndCount(@RequestParam("MNTN_NM") String name, Model model){
+        log.info("mountainEndCount");
+        name = mountainMetaData.getMainMountainName(name);
+
+        ArrayList<ArrayList<Double>> startList = mountainMetaData.getStartList(name);
+        model.addAttribute("startList",startList);
+
+        return new ModelAndView("endmap");
+    }
+
+    @PostMapping("/startcount") @ResponseBody
+    public MountainStartCount startCount(@RequestBody HashMap<String,Object> result){
+        log.info("startCount");
+
+
+        MountainStartCount mountainStartCount = new MountainStartCount();
+        String name = (String) result.get("MNTN_NM");
+
+        name = mountainMetaData.getMainMountainName(name);
+
+        ArrayList<ArrayList<Double>> startList = mountainMetaData.getStartList(name);
+        mountainStartCount.setCount(startList.size());
+        System.out.println("mountainStartCount = " + mountainStartCount);
+
+
+        return mountainStartCount;
+    }
+
+    @PostMapping("/endcount") @ResponseBody
+    public MountainEndCount endCount(@RequestBody HashMap<String,Object> result){
+        log.info("endCount");
+
+
+        MountainEndCount mountainEndCount = new MountainEndCount();
+        String name = (String) result.get("MNTN_NM");
+
+        name = mountainMetaData.getMainMountainName(name);
+
+        ArrayList<ArrayList<Double>> endList = mountainMetaData.getStartList(name);
+        mountainEndCount.setCount(endList.size());
+        System.out.println("mountainEndCount = " + mountainEndCount);
+
+
+        return mountainEndCount;
+    }
+
+
+
+    @PostMapping("/mountain")
     @ResponseBody
-    public Map<String,Object> welcome2(@RequestBody HashMap<String,Object> result){
-        log.info("post controller");
+    public MountainNameResDto searchMountain(@RequestBody HashMap<String,Object> result) throws IOException, ParseException {
+        log.info("searchMountain controller");
 
         System.out.println("result = " + result);
 
+        String name = (String)result.get("MNTN_NM");
+        name = mountainMetaData.getMainMountainName(name);
+        System.out.println("name = " + name);
 
-        Map result2 = new HashMap<String,Object>();
-        result2.put("hello","World");
-        result2.put("test","data");
-        return result2;
+        MountainNameResDto mountainNameResDto = new MountainNameResDto();
+
+        if(mountainMetaData.isExist(name)){
+            mountainNameResDto.setMNTN_NM(name);
+        }
+        else{
+            mountainNameResDto.setMNTN_NM("ERROR");
+        }
+
+        return mountainNameResDto;
     }
 
 
     @GetMapping("/map")
-    public String map(){
+    public ModelAndView map(Model model, @RequestParam String MNTN_NM) throws IOException, ParseException {
         log.info("map controller");
-        return "map";
+
+        String fileName;
+        MNTN_NM = mountainMetaData.getMainMountainName(MNTN_NM);
+        fileName = MNTN_NM + ".json";
+
+        TranJsonToMap tranJsonToMap = new TranJsonToMap(fileName);
+
+        System.out.println("tranJsonToMap = " + tranJsonToMap);
+
+
+        Mountain mountain = tranJsonToMap.getMountain();
+        ArrayList<Feature> features = mountain.getFeatures();
+        int count=0;
+
+        ArrayList<ArrayList<ArrayList<Double>>> lineString = new ArrayList<>();
+
+        for (Feature feature : features) {
+            ArrayList<ArrayList<Double>> posList = feature.getGeometry().getPaths().get(0);
+
+//            //[첫번째 경로][두번째경로] 이런식으로 저장
+            lineString.add(posList);
+       }
+        model.addAttribute("lineString",lineString);
+
+
+        return new ModelAndView("maptest");
+    }
+
+
+
+
+    @GetMapping("/login")
+    public String welcome(){
+        log.info("login controller");
+        return "login";
     }
 
     @GetMapping("/kakao")
     public String getCI(@RequestParam String code, Model model) throws IOException {
 
         log.info("kakao controller");
+
+        System.out.println("code = " + code);
+        String access_token = ks.getToken(code);
+        Map<String, Object> userInfo = ks.getUserInfo(access_token);
+        model.addAttribute("code", code);
+        model.addAttribute("access_token", access_token);
+        model.addAttribute("userInfo", userInfo);
+
+        //ci는 비즈니스 전환후 검수신청 -> 허락받아야 수집 가능
+        return "welcome";
+    }
+
+    @GetMapping("/kakao2")
+    public String getCI2(@RequestParam String code, Model model) throws IOException {
+
+        log.info("kakao2 controller");
 
         System.out.println("code = " + code);
         String access_token = ks.getToken(code);
