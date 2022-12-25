@@ -1,0 +1,4959 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 9185,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "2638001010001",
+        "MNTN_ID" : "263800101"
+      },
+      "geometry" : {
+"x" : 35.11848,
+"y" : 128.9998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 9186,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "2614001010002",
+        "MNTN_ID" : "261400101"
+      },
+      "geometry" : {
+"x" : 35.14001,
+"y" : 129.02299
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 9187,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "2623001010003",
+        "MNTN_ID" : "262300101"
+      },
+      "geometry" : {
+"x" : 35.14487,
+"y" : 129.02144
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 9188,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000004",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11786,
+"y" : 128.99854
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 9189,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000005",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11374,
+"y" : 128.98705
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 9190,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판,시설물(운동기구 등),분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000006",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11547,
+"y" : 128.98908
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 9191,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대,체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000007",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11937,
+"y" : 128.99449
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 9192,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000008",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.10746,
+"y" : 129.00824
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 9193,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대,체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000009",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.1137,
+"y" : 128.98903
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 9194,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000010",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.10989,
+"y" : 128.98678
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 9195,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : "삼거리인데 한쪽길은 없음",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000011",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12083,
+"y" : 128.97846
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 9196,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : "아래쪽 화엄사길끝",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000012",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12028,
+"y" : 128.97702
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 9197,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000013",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11971,
+"y" : 128.97579
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 9198,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,체육시설,음수대,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000014",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12024,
+"y" : 128.97427
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 9199,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000015",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.10698,
+"y" : 128.97284
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 9200,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000016",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12174,
+"y" : 129.0036
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 9201,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "금선사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000017",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12086,
+"y" : 129.00973
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 9202,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설,음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000018",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11075,
+"y" : 129.00685
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 9203,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000019",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12495,
+"y" : 128.98769
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 9204,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설, 거북약수",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000020",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12797,
+"y" : 128.98766
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 9205,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000021",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12866,
+"y" : 128.98236
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 9206,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000022",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13981,
+"y" : 129.01949
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 9207,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설,음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000023",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.1403,
+"y" : 129.00474
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 9208,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설,음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000024",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.14271,
+"y" : 129.0088
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 9209,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000025",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.14055,
+"y" : 128.99926
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 9210,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000026",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13929,
+"y" : 129.00062
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 9211,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설,음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000027",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.14279,
+"y" : 129.01109
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 9212,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000028",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.14238,
+"y" : 129.0138
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 9213,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설,음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000029",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.14179,
+"y" : 129.00383
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 9214,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "주례벽산아파트",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000030",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.14421,
+"y" : 129.00194
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 9215,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000031",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13976,
+"y" : 129.03126
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 9216,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "야외수련장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000032",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12575,
+"y" : 129.00846
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 9217,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000033",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.1284,
+"y" : 129.03568
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 9218,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대,체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000034",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12825,
+"y" : 129.02698
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 9219,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000035",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12336,
+"y" : 129.01759
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 9220,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000036",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12406,
+"y" : 129.01786
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 9221,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000037",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13037,
+"y" : 129.02085
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 9222,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000038",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12835,
+"y" : 129.03154
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 9223,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000039",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.1288,
+"y" : 129.02305
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 9224,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,체육시설,음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000040",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13015,
+"y" : 129.03281
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 9225,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "공원",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000041",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12419,
+"y" : 129.01853
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 9226,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육공원,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000042",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12124,
+"y" : 129.02179
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 9227,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000043",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11874,
+"y" : 129.02458
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 9228,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000044",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12584,
+"y" : 129.02566
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 9229,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000045",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12765,
+"y" : 129.02624
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 9230,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "보경사(구봉산)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000046",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12477,
+"y" : 129.03186
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 9231,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000047",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11693,
+"y" : 129.02615
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 9232,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000048",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.1162,
+"y" : 129.02898
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 9233,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000049",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12231,
+"y" : 129.01819
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 9234,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000050",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13268,
+"y" : 129.02637
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 50,
+        "PMNTN_SPOT" : 9235,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000051",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13463,
+"y" : 129.02546
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 51,
+        "PMNTN_SPOT" : 9236,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "꽃동네",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000052",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12852,
+"y" : 129.00999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 52,
+        "PMNTN_SPOT" : 9237,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "약수터,체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000053",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12187,
+"y" : 129.02656
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 53,
+        "PMNTN_SPOT" : 9238,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000054",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12228,
+"y" : 129.02861
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 54,
+        "PMNTN_SPOT" : 9239,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,장군시",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000055",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.1225,
+"y" : 129.02953
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 55,
+        "PMNTN_SPOT" : 9240,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000056",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12632,
+"y" : 129.00411
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 56,
+        "PMNTN_SPOT" : 9241,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000057",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12167,
+"y" : 128.99774
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 57,
+        "PMNTN_SPOT" : 9242,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000058",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11583,
+"y" : 128.99953
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 58,
+        "PMNTN_SPOT" : 9243,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "약수터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000059",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11589,
+"y" : 128.99972
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 59,
+        "PMNTN_SPOT" : 9244,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000060",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11261,
+"y" : 129.00129
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 60,
+        "PMNTN_SPOT" : 9245,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000061",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12676,
+"y" : 129.03258
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 61,
+        "PMNTN_SPOT" : 9246,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000062",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.10872,
+"y" : 128.99924
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 62,
+        "PMNTN_SPOT" : 9247,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기타",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000063",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.10536,
+"y" : 129.00204
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 63,
+        "PMNTN_SPOT" : 9248,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "약수터,체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000064",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11304,
+"y" : 128.99789
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 64,
+        "PMNTN_SPOT" : 9249,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000065",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.10896,
+"y" : 128.98929
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 65,
+        "PMNTN_SPOT" : 9250,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "기상관측소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000066",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11943,
+"y" : 129.00036
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 66,
+        "PMNTN_SPOT" : 9251,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000067",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12291,
+"y" : 128.99474
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 67,
+        "PMNTN_SPOT" : 9252,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000068",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12329,
+"y" : 128.99378
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 68,
+        "PMNTN_SPOT" : 9253,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000069",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.1128,
+"y" : 128.98594
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 69,
+        "PMNTN_SPOT" : 9254,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000070",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12298,
+"y" : 128.9868
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 70,
+        "PMNTN_SPOT" : 9255,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000071",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12213,
+"y" : 128.98601
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 71,
+        "PMNTN_SPOT" : 9256,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "수정2동 운동시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000072",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13291,
+"y" : 129.03843
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 72,
+        "PMNTN_SPOT" : 9257,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000073",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11776,
+"y" : 128.98102
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 73,
+        "PMNTN_SPOT" : 9258,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상(승학산 496m)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000074",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11682,
+"y" : 128.97999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 74,
+        "PMNTN_SPOT" : 9259,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "정각사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000075",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.10998,
+"y" : 128.97639
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 75,
+        "PMNTN_SPOT" : 9260,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000076",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.1262,
+"y" : 128.99002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 76,
+        "PMNTN_SPOT" : 9261,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "약수터,체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000077",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12732,
+"y" : 128.9905
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 77,
+        "PMNTN_SPOT" : 9262,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "약수터,체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000078",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12809,
+"y" : 128.99144
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 78,
+        "PMNTN_SPOT" : 9263,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000079",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13398,
+"y" : 128.99439
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 79,
+        "PMNTN_SPOT" : 9264,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "백운사(절)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000080",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13494,
+"y" : 129.03957
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 80,
+        "PMNTN_SPOT" : 9265,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000081",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11287,
+"y" : 128.99419
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 81,
+        "PMNTN_SPOT" : 9266,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설,벤치,약수터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000082",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11084,
+"y" : 128.99263
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 82,
+        "PMNTN_SPOT" : 9267,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "약수터,체육시설,벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000083",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.10654,
+"y" : 128.99289
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 83,
+        "PMNTN_SPOT" : 9268,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "시약산수도암(절)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000084",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11581,
+"y" : 129.00512
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 84,
+        "PMNTN_SPOT" : 9269,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000085",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13571,
+"y" : 129.03949
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 85,
+        "PMNTN_SPOT" : 9270,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대,체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000086",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13789,
+"y" : 129.03913
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 86,
+        "PMNTN_SPOT" : 9271,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대,체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000087",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13881,
+"y" : 129.0392
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 87,
+        "PMNTN_SPOT" : 9272,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000088",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.14296,
+"y" : 129.0434
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 88,
+        "PMNTN_SPOT" : 9273,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "청룡사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000089",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13994,
+"y" : 129.04586
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 89,
+        "PMNTN_SPOT" : 9274,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000090",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13929,
+"y" : 129.04663
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 90,
+        "PMNTN_SPOT" : 9275,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000091",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13456,
+"y" : 129.03417
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 91,
+        "PMNTN_SPOT" : 9276,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "22",
+        "MANAGE_SP2" : "헬기장",
+        "DETAIL_SPO" : "헬기장,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000092",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13737,
+"y" : 129.03468
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 92,
+        "PMNTN_SPOT" : 9277,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대,체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000093",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13846,
+"y" : 129.0376
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 93,
+        "PMNTN_SPOT" : 9278,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000094",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13905,
+"y" : 129.03814
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 94,
+        "PMNTN_SPOT" : 9279,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000095",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11374,
+"y" : 128.96463
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 95,
+        "PMNTN_SPOT" : 9280,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000096",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11561,
+"y" : 128.96874
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 96,
+        "PMNTN_SPOT" : 9281,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000097",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11969,
+"y" : 128.9707
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 97,
+        "PMNTN_SPOT" : 9282,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000098",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.10691,
+"y" : 128.97289
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 98,
+        "PMNTN_SPOT" : 9283,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,벤치,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000099",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11448,
+"y" : 128.97422
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 99,
+        "PMNTN_SPOT" : 9284,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,성불사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000100",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13299,
+"y" : 128.97549
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 100,
+        "PMNTN_SPOT" : 9285,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000101",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.1299,
+"y" : 128.97564
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 101,
+        "PMNTN_SPOT" : 9286,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000102",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11678,
+"y" : 128.97619
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 102,
+        "PMNTN_SPOT" : 9287,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000103",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.10997,
+"y" : 128.97675
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 103,
+        "PMNTN_SPOT" : 9288,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000104",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12039,
+"y" : 128.98339
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 104,
+        "PMNTN_SPOT" : 9289,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000105",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11154,
+"y" : 128.9848
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 105,
+        "PMNTN_SPOT" : 9290,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000106",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.10347,
+"y" : 128.98538
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 106,
+        "PMNTN_SPOT" : 9291,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000107",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.10713,
+"y" : 128.98563
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 107,
+        "PMNTN_SPOT" : 9292,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000108",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11296,
+"y" : 128.98618
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 108,
+        "PMNTN_SPOT" : 9293,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000109",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.10304,
+"y" : 128.98659
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 109,
+        "PMNTN_SPOT" : 9294,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000110",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12828,
+"y" : 128.98745
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 110,
+        "PMNTN_SPOT" : 9295,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000111",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11399,
+"y" : 128.9873
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 111,
+        "PMNTN_SPOT" : 9296,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "약수터,체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000112",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.10767,
+"y" : 128.98761
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 112,
+        "PMNTN_SPOT" : 9297,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000113",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.10713,
+"y" : 128.9885
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 113,
+        "PMNTN_SPOT" : 9298,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000114",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12361,
+"y" : 128.9889
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 114,
+        "PMNTN_SPOT" : 9299,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000115",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.10153,
+"y" : 128.98944
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 115,
+        "PMNTN_SPOT" : 9300,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000116",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11929,
+"y" : 128.99103
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 116,
+        "PMNTN_SPOT" : 9301,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표, 벤치,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000117",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12353,
+"y" : 128.99149
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 117,
+        "PMNTN_SPOT" : 9302,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000118",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11009,
+"y" : 128.99182
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 118,
+        "PMNTN_SPOT" : 9303,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000119",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13395,
+"y" : 128.99311
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 119,
+        "PMNTN_SPOT" : 9304,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000120",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12177,
+"y" : 128.99314
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 120,
+        "PMNTN_SPOT" : 9305,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000121",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.14367,
+"y" : 128.99413
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 121,
+        "PMNTN_SPOT" : 9306,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000122",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13787,
+"y" : 128.99411
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 122,
+        "PMNTN_SPOT" : 9307,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000123",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11199,
+"y" : 128.9938
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 123,
+        "PMNTN_SPOT" : 9308,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000124",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11248,
+"y" : 128.99393
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 124,
+        "PMNTN_SPOT" : 9309,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000125",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11942,
+"y" : 128.99421
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 125,
+        "PMNTN_SPOT" : 9310,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000126",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.14043,
+"y" : 128.99544
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 126,
+        "PMNTN_SPOT" : 9311,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000127",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.14046,
+"y" : 128.99545
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 127,
+        "PMNTN_SPOT" : 9312,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000128",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.14046,
+"y" : 128.99545
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 128,
+        "PMNTN_SPOT" : 9313,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000129",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.14046,
+"y" : 128.99545
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 129,
+        "PMNTN_SPOT" : 9314,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,벤치,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000130",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11566,
+"y" : 128.99626
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 130,
+        "PMNTN_SPOT" : 9315,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,벤치,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000131",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11566,
+"y" : 128.99634
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 131,
+        "PMNTN_SPOT" : 9316,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,벤치,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000132",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11564,
+"y" : 128.99647
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 132,
+        "PMNTN_SPOT" : 9317,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000133",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.10376,
+"y" : 128.99648
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 133,
+        "PMNTN_SPOT" : 9318,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "벤치,화장실,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000134",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.1232,
+"y" : 128.99727
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 134,
+        "PMNTN_SPOT" : 9319,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기,동주아카데미",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000135",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11539,
+"y" : 128.99725
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 135,
+        "PMNTN_SPOT" : 9320,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000136",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11249,
+"y" : 128.99856
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 136,
+        "PMNTN_SPOT" : 9321,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000137",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.10833,
+"y" : 128.9987
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 137,
+        "PMNTN_SPOT" : 9322,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "건물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000138",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12163,
+"y" : 128.99972
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 138,
+        "PMNTN_SPOT" : 9323,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000139",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12069,
+"y" : 128.99998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 139,
+        "PMNTN_SPOT" : 9324,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000140",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.14458,
+"y" : 129.00071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 140,
+        "PMNTN_SPOT" : 9325,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000141",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.10996,
+"y" : 128.99988
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 141,
+        "PMNTN_SPOT" : 9326,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000142",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12087,
+"y" : 129.00029
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 142,
+        "PMNTN_SPOT" : 9327,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000143",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11977,
+"y" : 129.00047
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 143,
+        "PMNTN_SPOT" : 9328,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000144",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11309,
+"y" : 129.00041
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 144,
+        "PMNTN_SPOT" : 9329,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000145",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11113,
+"y" : 129.00053
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 145,
+        "PMNTN_SPOT" : 9330,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설,약수터,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000146",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11037,
+"y" : 129.00059
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 146,
+        "PMNTN_SPOT" : 9331,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000147",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11938,
+"y" : 129.00094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 147,
+        "PMNTN_SPOT" : 9332,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000148",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11102,
+"y" : 129.00089
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 148,
+        "PMNTN_SPOT" : 9333,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000149",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.14322,
+"y" : 129.00197
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 149,
+        "PMNTN_SPOT" : 9334,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000150",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.14355,
+"y" : 129.00199
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 150,
+        "PMNTN_SPOT" : 9335,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000151",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.14197,
+"y" : 129.00204
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 151,
+        "PMNTN_SPOT" : 9336,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000152",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.14197,
+"y" : 129.00204
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 152,
+        "PMNTN_SPOT" : 9337,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000153",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.14198,
+"y" : 129.00204
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 153,
+        "PMNTN_SPOT" : 9338,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000154",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.10537,
+"y" : 129.00156
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 154,
+        "PMNTN_SPOT" : 9339,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치,이정표,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000155",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11036,
+"y" : 129.00174
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 155,
+        "PMNTN_SPOT" : 9340,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000156",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.10594,
+"y" : 129.00191
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 156,
+        "PMNTN_SPOT" : 9341,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000157",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.1054,
+"y" : 129.00217
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 157,
+        "PMNTN_SPOT" : 9342,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000158",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13994,
+"y" : 129.00368
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 158,
+        "PMNTN_SPOT" : 9343,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000159",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11138,
+"y" : 129.00325
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 159,
+        "PMNTN_SPOT" : 9344,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000160",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.1438,
+"y" : 129.00437
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 160,
+        "PMNTN_SPOT" : 9345,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000161",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11057,
+"y" : 129.00367
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 161,
+        "PMNTN_SPOT" : 9346,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000162",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.14422,
+"y" : 129.00452
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 162,
+        "PMNTN_SPOT" : 9347,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000163",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.14253,
+"y" : 129.00457
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 163,
+        "PMNTN_SPOT" : 9348,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000164",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13934,
+"y" : 129.00454
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 164,
+        "PMNTN_SPOT" : 9349,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000165",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.14173,
+"y" : 129.00468
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 165,
+        "PMNTN_SPOT" : 9350,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000166",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13853,
+"y" : 129.00501
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 166,
+        "PMNTN_SPOT" : 9351,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "동서대학교",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000167",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.14289,
+"y" : 129.00644
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 167,
+        "PMNTN_SPOT" : 9352,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000168",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13682,
+"y" : 129.00652
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 168,
+        "PMNTN_SPOT" : 9353,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000169",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.10728,
+"y" : 129.0063
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 169,
+        "PMNTN_SPOT" : 9354,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000170",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.14393,
+"y" : 129.00768
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 170,
+        "PMNTN_SPOT" : 9355,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000171",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11545,
+"y" : 129.00756
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 171,
+        "PMNTN_SPOT" : 9356,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000172",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.1209,
+"y" : 129.00793
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 172,
+        "PMNTN_SPOT" : 9357,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000173",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.14181,
+"y" : 129.00895
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 173,
+        "PMNTN_SPOT" : 9358,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000174",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11089,
+"y" : 129.0082
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 174,
+        "PMNTN_SPOT" : 9359,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000175",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.10739,
+"y" : 129.00822
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 175,
+        "PMNTN_SPOT" : 9360,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000176",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12862,
+"y" : 129.00911
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 176,
+        "PMNTN_SPOT" : 9361,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000177",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12849,
+"y" : 129.0093
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 177,
+        "PMNTN_SPOT" : 9362,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000178",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12056,
+"y" : 129.00996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 178,
+        "PMNTN_SPOT" : 9363,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000179",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12057,
+"y" : 129.01004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 179,
+        "PMNTN_SPOT" : 9364,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000180",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.14194,
+"y" : 129.01072
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 180,
+        "PMNTN_SPOT" : 9365,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000181",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12516,
+"y" : 129.01047
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 181,
+        "PMNTN_SPOT" : 9366,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000182",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.14381,
+"y" : 129.01094
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 182,
+        "PMNTN_SPOT" : 9367,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000183",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12403,
+"y" : 129.01206
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 183,
+        "PMNTN_SPOT" : 9368,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,부산여중",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000184",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12076,
+"y" : 129.01224
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 184,
+        "PMNTN_SPOT" : 9369,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000185",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.1257,
+"y" : 129.01237
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 185,
+        "PMNTN_SPOT" : 9370,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000186",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13745,
+"y" : 129.01304
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 186,
+        "PMNTN_SPOT" : 9371,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000187",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12606,
+"y" : 129.01358
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 187,
+        "PMNTN_SPOT" : 9372,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000188",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.1302,
+"y" : 129.01405
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 188,
+        "PMNTN_SPOT" : 9373,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000189",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.1423,
+"y" : 129.01456
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 189,
+        "PMNTN_SPOT" : 9374,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000190",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13676,
+"y" : 129.01471
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 190,
+        "PMNTN_SPOT" : 9375,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000191",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.14342,
+"y" : 129.01631
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 191,
+        "PMNTN_SPOT" : 9376,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000192",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.1414,
+"y" : 129.01628
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 192,
+        "PMNTN_SPOT" : 9377,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000193",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12131,
+"y" : 129.01609
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 193,
+        "PMNTN_SPOT" : 9378,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "헬기장,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000194",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13538,
+"y" : 129.01704
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 194,
+        "PMNTN_SPOT" : 9379,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000195",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12066,
+"y" : 129.01687
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 195,
+        "PMNTN_SPOT" : 9380,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000196",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13086,
+"y" : 129.01713
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 196,
+        "PMNTN_SPOT" : 9381,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000197",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.14281,
+"y" : 129.01843
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 197,
+        "PMNTN_SPOT" : 9382,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000198",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12175,
+"y" : 129.0182
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 198,
+        "PMNTN_SPOT" : 9383,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000199",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12555,
+"y" : 129.01877
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 199,
+        "PMNTN_SPOT" : 9384,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000200",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12264,
+"y" : 129.01872
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 200,
+        "PMNTN_SPOT" : 9385,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "약수터,체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000201",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12394,
+"y" : 129.01876
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 201,
+        "PMNTN_SPOT" : 9386,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "약수터,체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000202",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12359,
+"y" : 129.01888
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 202,
+        "PMNTN_SPOT" : 9387,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판,벤치,화장실,체육시설,전화박스,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000203",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12583,
+"y" : 129.01936
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 203,
+        "PMNTN_SPOT" : 9388,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000204",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.1245,
+"y" : 129.01934
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 204,
+        "PMNTN_SPOT" : 9389,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판,벤치,화장실,체육시설,전화박스,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000205",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12628,
+"y" : 129.01941
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 205,
+        "PMNTN_SPOT" : 9390,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000206",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.14037,
+"y" : 129.02032
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 206,
+        "PMNTN_SPOT" : 9391,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000207",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.1274,
+"y" : 129.02055
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 207,
+        "PMNTN_SPOT" : 9392,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000208",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12717,
+"y" : 129.02059
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 208,
+        "PMNTN_SPOT" : 9393,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000209",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13055,
+"y" : 129.02069
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 209,
+        "PMNTN_SPOT" : 9394,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000210",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11943,
+"y" : 129.02063
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 210,
+        "PMNTN_SPOT" : 9395,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000211",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.129,
+"y" : 129.02096
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 211,
+        "PMNTN_SPOT" : 9396,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000212",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13158,
+"y" : 129.02107
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 212,
+        "PMNTN_SPOT" : 9397,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000213",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11814,
+"y" : 129.02083
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 213,
+        "PMNTN_SPOT" : 9398,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000214",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12049,
+"y" : 129.02093
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 214,
+        "PMNTN_SPOT" : 9399,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000215",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13183,
+"y" : 129.02125
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 215,
+        "PMNTN_SPOT" : 9400,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000216",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13668,
+"y" : 129.02156
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 216,
+        "PMNTN_SPOT" : 9401,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000217",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12528,
+"y" : 129.02131
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 217,
+        "PMNTN_SPOT" : 9402,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000218",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12282,
+"y" : 129.02153
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 218,
+        "PMNTN_SPOT" : 9403,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000219",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12111,
+"y" : 129.02201
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 219,
+        "PMNTN_SPOT" : 9404,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000220",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12821,
+"y" : 129.02242
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 220,
+        "PMNTN_SPOT" : 9405,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000221",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12092,
+"y" : 129.02233
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 221,
+        "PMNTN_SPOT" : 9406,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000222",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12797,
+"y" : 129.02252
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 222,
+        "PMNTN_SPOT" : 9407,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000223",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11973,
+"y" : 129.02513
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 223,
+        "PMNTN_SPOT" : 9408,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000224",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12184,
+"y" : 129.02523
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 224,
+        "PMNTN_SPOT" : 9409,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000225",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12777,
+"y" : 129.02549
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 225,
+        "PMNTN_SPOT" : 9410,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000226",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12185,
+"y" : 129.02537
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 226,
+        "PMNTN_SPOT" : 9411,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000227",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.1278,
+"y" : 129.02559
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 227,
+        "PMNTN_SPOT" : 9412,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000228",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.1215,
+"y" : 129.02546
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 228,
+        "PMNTN_SPOT" : 9413,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000229",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12774,
+"y" : 129.02575
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 229,
+        "PMNTN_SPOT" : 9414,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000230",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12071,
+"y" : 129.02565
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 230,
+        "PMNTN_SPOT" : 9415,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상,구봉산",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000231",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12527,
+"y" : 129.02583
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 231,
+        "PMNTN_SPOT" : 9416,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000232",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13276,
+"y" : 129.02639
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 232,
+        "PMNTN_SPOT" : 9417,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000233",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11424,
+"y" : 129.0273
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 233,
+        "PMNTN_SPOT" : 9418,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000234",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12678,
+"y" : 129.02804
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 234,
+        "PMNTN_SPOT" : 9419,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000235",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12819,
+"y" : 129.02979
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 235,
+        "PMNTN_SPOT" : 9420,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000236",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12828,
+"y" : 129.02979
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 236,
+        "PMNTN_SPOT" : 9421,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,대종사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000237",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11993,
+"y" : 129.02993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 237,
+        "PMNTN_SPOT" : 9422,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000238",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12491,
+"y" : 129.03018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 238,
+        "PMNTN_SPOT" : 9423,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000239",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13758,
+"y" : 129.03109
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 239,
+        "PMNTN_SPOT" : 9424,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000240",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13736,
+"y" : 129.03133
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 240,
+        "PMNTN_SPOT" : 9425,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000241",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11571,
+"y" : 129.03103
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 241,
+        "PMNTN_SPOT" : 9426,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000242",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13848,
+"y" : 129.03215
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 242,
+        "PMNTN_SPOT" : 9427,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000243",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13239,
+"y" : 129.03236
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 243,
+        "PMNTN_SPOT" : 9428,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000244",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13703,
+"y" : 129.03313
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 244,
+        "PMNTN_SPOT" : 9429,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,동의대학교",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000245",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13904,
+"y" : 129.03332
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 245,
+        "PMNTN_SPOT" : 9430,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000246",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12349,
+"y" : 129.03294
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 246,
+        "PMNTN_SPOT" : 9431,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000247",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12657,
+"y" : 129.03311
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 247,
+        "PMNTN_SPOT" : 9432,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,시설물,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000248",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.1326,
+"y" : 129.03361
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 248,
+        "PMNTN_SPOT" : 9433,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000249",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.1339,
+"y" : 129.03381
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 249,
+        "PMNTN_SPOT" : 9434,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000250",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13531,
+"y" : 129.03385
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 250,
+        "PMNTN_SPOT" : 9435,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,시설물,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000251",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13237,
+"y" : 129.03399
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 251,
+        "PMNTN_SPOT" : 9436,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000252",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13414,
+"y" : 129.03445
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 252,
+        "PMNTN_SPOT" : 9437,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000253",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13408,
+"y" : 129.03478
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 253,
+        "PMNTN_SPOT" : 9438,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000254",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12867,
+"y" : 129.03573
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 254,
+        "PMNTN_SPOT" : 9439,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000255",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13412,
+"y" : 129.03635
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 255,
+        "PMNTN_SPOT" : 9440,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000256",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12721,
+"y" : 129.03636
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 256,
+        "PMNTN_SPOT" : 9441,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,수정5동 초소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000257",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13515,
+"y" : 129.03864
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 257,
+        "PMNTN_SPOT" : 9442,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000258",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.14029,
+"y" : 129.03887
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 258,
+        "PMNTN_SPOT" : 9443,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,수정5동 초소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000259",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.1351,
+"y" : 129.03897
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 259,
+        "PMNTN_SPOT" : 9444,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000260",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13696,
+"y" : 129.03944
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 260,
+        "PMNTN_SPOT" : 9445,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점,안창배수지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000261",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.14336,
+"y" : 129.04031
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 261,
+        "PMNTN_SPOT" : 9446,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000262",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13336,
+"y" : 129.0403
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 262,
+        "PMNTN_SPOT" : 9447,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000263",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.14226,
+"y" : 129.04055
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 263,
+        "PMNTN_SPOT" : 9448,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000264",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13823,
+"y" : 129.04641
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 264,
+        "PMNTN_SPOT" : 9449,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000265",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.13935,
+"y" : 129.04706
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 265,
+        "PMNTN_SPOT" : 9450,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000266",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12161,
+"y" : 128.99772
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 266,
+        "PMNTN_SPOT" : 9451,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000267",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.12318,
+"y" : 129.00642
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 267,
+        "PMNTN_SPOT" : 9452,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "2638001010268",
+        "MNTN_ID" : "263800101"
+      },
+      "geometry" : {
+"x" : 35.11549,
+"y" : 129.00695
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 268,
+        "PMNTN_SPOT" : 9453,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000269",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.1111,
+"y" : 129.0066
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 269,
+        "PMNTN_SPOT" : 9454,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000270",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.11002,
+"y" : 129.00755
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 270,
+        "PMNTN_SPOT" : 9455,
+        "MNTN_CODE" : "261400101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "구덕산",
+        "PAST_SPOT_" : "12112501000271",
+        "MNTN_ID" : "1211250100"
+      },
+      "geometry" : {
+"x" : 35.10819,
+"y" : 129.00755
+      }
+    }
+  ]
+}

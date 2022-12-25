@@ -1,0 +1,6039 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 13966,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010001",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.215252056085966,
+"y" : 129.00947735686486
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 13967,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010002",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.21825705788605,
+"y" : 129.0101421120246
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 13968,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010003",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.220829731124674,
+"y" : 129.0108947019205
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 13969,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010004",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.22437817432825,
+"y" : 129.01288566802637
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 13970,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010005",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.21893858697857,
+"y" : 129.012882565069
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 13971,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010006",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.25441884766234,
+"y" : 129.01435931194487
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 13972,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010007",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.24611491720784,
+"y" : 129.0143200148959
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 13973,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010008",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.243403911929136,
+"y" : 129.0147514715969
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 13974,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010009",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.253141740772065,
+"y" : 129.01532487836337
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 13975,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010010",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.24511940391944,
+"y" : 129.01543094223862
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 13976,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010011",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.249252490065956,
+"y" : 129.01556096261578
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 13977,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010012",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.245317404091644,
+"y" : 129.01650216232233
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 13978,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010013",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.2453987270468,
+"y" : 129.01675507569786
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 13979,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010014",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.22138078014062,
+"y" : 129.01661827425093
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 13980,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010015",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.23009830779906,
+"y" : 129.01706379160214
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 13981,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010016",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.22201696522265,
+"y" : 129.01722471047486
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 13982,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010017",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.229466071799585,
+"y" : 129.01783579807676
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 13983,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010018",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.22291138383272,
+"y" : 129.01849388070352
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 13984,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010019",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.232385875227614,
+"y" : 129.01876145448182
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 13985,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010020",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.260944626075975,
+"y" : 129.01952104454122
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 13986,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "4833003010021",
+        "MNTN_ID" : "483300301"
+      },
+      "geometry" : {
+"x" : 35.29471978569621,
+"y" : 129.02073569188036
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 13987,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010022",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.251194367794135,
+"y" : 129.01969458767599
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 13988,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010023",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.25813745296991,
+"y" : 129.02055833582455
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 13989,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010024",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.24162529097374,
+"y" : 129.0202049844049
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 13990,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010025",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.26246103560586,
+"y" : 129.02123467882163
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 13991,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "4833003010026",
+        "MNTN_ID" : "483300301"
+      },
+      "geometry" : {
+"x" : 35.29612335084666,
+"y" : 129.0221501292451
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 13992,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010027",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.224277163515325,
+"y" : 129.0205623734256
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 13993,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010028",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.21606506677682,
+"y" : 129.0204900228819
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 13994,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010029",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.22395086427244,
+"y" : 129.0207511829994
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 13995,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010030",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.22413874058548,
+"y" : 129.02078865899117
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 13996,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010031",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.26567197212641,
+"y" : 129.0221594072882
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 13997,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010032",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.26391970360628,
+"y" : 129.02232362565132
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 13998,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010033",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.258013054113356,
+"y" : 129.0222737819285
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 13999,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010034",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.23744983102864,
+"y" : 129.02190663317893
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 14000,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "4833003010035",
+        "MNTN_ID" : "483300301"
+      },
+      "geometry" : {
+"x" : 35.29273341307631,
+"y" : 129.02357663783326
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 14001,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010036",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.26476027574712,
+"y" : 129.02300939652199
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 14002,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010037",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.25844435524976,
+"y" : 129.02297702476417
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 14003,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "4833003010038",
+        "MNTN_ID" : "483300301"
+      },
+      "geometry" : {
+"x" : 35.29235107458969,
+"y" : 129.02389556370383
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 14004,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "4833003010039",
+        "MNTN_ID" : "483300301"
+      },
+      "geometry" : {
+"x" : 35.284949476385464,
+"y" : 129.02402520215892
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 14005,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010040",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.22765220513774,
+"y" : 129.023121897228
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 14006,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010041",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.26376398538572,
+"y" : 129.02416199386138
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 14007,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010042",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.22801169545983,
+"y" : 129.02429785210975
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 14008,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010043",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.253978287909646,
+"y" : 129.02509582258264
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 14009,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010044",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.22506660265547,
+"y" : 129.02518139051313
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 14010,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "4833003010045",
+        "MNTN_ID" : "483300301"
+      },
+      "geometry" : {
+"x" : 35.30296495334734,
+"y" : 129.0273966557103
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 14011,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010046",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.254080163805604,
+"y" : 129.02623164140877
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 14012,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010047",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.22890438571702,
+"y" : 129.02566560963993
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 14013,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "4833003010048",
+        "MNTN_ID" : "483300301"
+      },
+      "geometry" : {
+"x" : 35.28787888442836,
+"y" : 129.02723269499188
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 14014,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010049",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.238747977330654,
+"y" : 129.02640277594827
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 14015,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "4833003010050",
+        "MNTN_ID" : "483300301"
+      },
+      "geometry" : {
+"x" : 35.28600790853414,
+"y" : 129.02886387172063
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 50,
+        "PMNTN_SPOT" : 14016,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "4833003010051",
+        "MNTN_ID" : "483300301"
+      },
+      "geometry" : {
+"x" : 35.29384949560337,
+"y" : 129.02928663543744
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 51,
+        "PMNTN_SPOT" : 14017,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010052",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.2610431378428,
+"y" : 129.02924685753376
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 52,
+        "PMNTN_SPOT" : 14018,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010053",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.230898455586946,
+"y" : 129.02880024580287
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 53,
+        "PMNTN_SPOT" : 14019,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010054",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.21614432589076,
+"y" : 129.02862980180666
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 54,
+        "PMNTN_SPOT" : 14020,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010055",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.23108950356025,
+"y" : 129.0292907369596
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 55,
+        "PMNTN_SPOT" : 14021,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "4833003010056",
+        "MNTN_ID" : "483300301"
+      },
+      "geometry" : {
+"x" : 35.28732825991799,
+"y" : 129.03116006033798
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 56,
+        "PMNTN_SPOT" : 14022,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010057",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.226571292331435,
+"y" : 129.0299067503687
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 57,
+        "PMNTN_SPOT" : 14023,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010058",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.256482933766364,
+"y" : 129.03087661149578
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 58,
+        "PMNTN_SPOT" : 14024,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010059",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.2587957638171,
+"y" : 129.03115759209356
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 59,
+        "PMNTN_SPOT" : 14025,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010060",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.25680544445166,
+"y" : 129.03128963540559
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 60,
+        "PMNTN_SPOT" : 14026,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "4833003010061",
+        "MNTN_ID" : "483300301"
+      },
+      "geometry" : {
+"x" : 35.2895189246024,
+"y" : 129.0322001016964
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 61,
+        "PMNTN_SPOT" : 14027,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010062",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.25893846649232,
+"y" : 129.03213069442833
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 62,
+        "PMNTN_SPOT" : 14028,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010063",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.230611002219206,
+"y" : 129.03164438624555
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 63,
+        "PMNTN_SPOT" : 14029,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "4833003010064",
+        "MNTN_ID" : "483300301"
+      },
+      "geometry" : {
+"x" : 35.28858387035123,
+"y" : 129.03335907035634
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 64,
+        "PMNTN_SPOT" : 14030,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010065",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.26652615773469,
+"y" : 129.03287428793197
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 65,
+        "PMNTN_SPOT" : 14031,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "4833003010066",
+        "MNTN_ID" : "483300301"
+      },
+      "geometry" : {
+"x" : 35.29038551760215,
+"y" : 129.03511201244308
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 66,
+        "PMNTN_SPOT" : 14032,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010067",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.25963094946416,
+"y" : 129.03570705968454
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 67,
+        "PMNTN_SPOT" : 14033,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010068",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.25036138331497,
+"y" : 129.03643678263063
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 68,
+        "PMNTN_SPOT" : 14034,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "4833003010069",
+        "MNTN_ID" : "483300301"
+      },
+      "geometry" : {
+"x" : 35.287058137673924,
+"y" : 129.03796601159488
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 69,
+        "PMNTN_SPOT" : 14035,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010070",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.26244652360703,
+"y" : 129.0379716818295
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 70,
+        "PMNTN_SPOT" : 14036,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "4833003010071",
+        "MNTN_ID" : "483300301"
+      },
+      "geometry" : {
+"x" : 35.27594856257539,
+"y" : 129.03869300246933
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 71,
+        "PMNTN_SPOT" : 14037,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010072",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.259045214583644,
+"y" : 129.03963752471253
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 72,
+        "PMNTN_SPOT" : 14038,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010073",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.213256449715445,
+"y" : 129.0386313770931
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 73,
+        "PMNTN_SPOT" : 14039,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "4833003010074",
+        "MNTN_ID" : "483300301"
+      },
+      "geometry" : {
+"x" : 35.2907157487967,
+"y" : 129.04088844343474
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 74,
+        "PMNTN_SPOT" : 14040,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "4833003010075",
+        "MNTN_ID" : "483300301"
+      },
+      "geometry" : {
+"x" : 35.27747137440147,
+"y" : 129.04201424609872
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 75,
+        "PMNTN_SPOT" : 14041,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010076",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.22826788864667,
+"y" : 129.04110733924927
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 76,
+        "PMNTN_SPOT" : 14042,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010077",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.22872105636395,
+"y" : 129.04138124386182
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 77,
+        "PMNTN_SPOT" : 14043,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010078",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.230199849295495,
+"y" : 129.04151675881576
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 78,
+        "PMNTN_SPOT" : 14044,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010079",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.221234158212205,
+"y" : 129.04142337948517
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 79,
+        "PMNTN_SPOT" : 14045,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010080",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.26987503856825,
+"y" : 129.0431331067265
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 80,
+        "PMNTN_SPOT" : 14046,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010081",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.22867919311554,
+"y" : 129.04226629884565
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 81,
+        "PMNTN_SPOT" : 14047,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010082",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.23258054228437,
+"y" : 129.04246257298004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 82,
+        "PMNTN_SPOT" : 14048,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010083",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.22817252728151,
+"y" : 129.0435663379792
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 83,
+        "PMNTN_SPOT" : 14049,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010084",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.271732180963795,
+"y" : 129.04525582396025
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 84,
+        "PMNTN_SPOT" : 14050,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010085",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.25091456417658,
+"y" : 129.04590982445634
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 85,
+        "PMNTN_SPOT" : 14051,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010086",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.23255536346494,
+"y" : 129.04554704426084
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 86,
+        "PMNTN_SPOT" : 14052,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010087",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.23091063818626,
+"y" : 129.0456698399098
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 87,
+        "PMNTN_SPOT" : 14053,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010088",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.23268662176346,
+"y" : 129.04574726295016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 88,
+        "PMNTN_SPOT" : 14054,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010089",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.233087606882634,
+"y" : 129.0459214362531
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 89,
+        "PMNTN_SPOT" : 14055,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010090",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.21510131575802,
+"y" : 129.0457979885925
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 90,
+        "PMNTN_SPOT" : 14056,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010091",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.27638953998996,
+"y" : 129.0480174561329
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 91,
+        "PMNTN_SPOT" : 14057,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010092",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.268978119204775,
+"y" : 129.04790473485878
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 92,
+        "PMNTN_SPOT" : 14058,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "4833003010093",
+        "MNTN_ID" : "483300301"
+      },
+      "geometry" : {
+"x" : 35.28006472410518,
+"y" : 129.048397750607
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 93,
+        "PMNTN_SPOT" : 14059,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010094",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.25536696217237,
+"y" : 129.04854961236288
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 94,
+        "PMNTN_SPOT" : 14060,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010095",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.23757361981108,
+"y" : 129.0481675749559
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 95,
+        "PMNTN_SPOT" : 14061,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010096",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.237942127628216,
+"y" : 129.04866917881557
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 96,
+        "PMNTN_SPOT" : 14062,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010097",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.231019410278364,
+"y" : 129.0487904340701
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 97,
+        "PMNTN_SPOT" : 14063,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010098",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.26418130608542,
+"y" : 129.04962518503874
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 98,
+        "PMNTN_SPOT" : 14064,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010099",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.25556395395922,
+"y" : 129.0496379442082
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 99,
+        "PMNTN_SPOT" : 14065,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010100",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.27319815410665,
+"y" : 129.05009573669096
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 100,
+        "PMNTN_SPOT" : 14066,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010101",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.27959139261088,
+"y" : 129.05026406097457
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 101,
+        "PMNTN_SPOT" : 14067,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010102",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.230581989783296,
+"y" : 129.04918438364365
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 102,
+        "PMNTN_SPOT" : 14068,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010103",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.25545294881873,
+"y" : 129.04983212595084
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 103,
+        "PMNTN_SPOT" : 14069,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010104",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.24476241144075,
+"y" : 129.0498255352667
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 104,
+        "PMNTN_SPOT" : 14070,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010105",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.26492107661889,
+"y" : 129.05046465510938
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 105,
+        "PMNTN_SPOT" : 14071,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010106",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.2744646307377,
+"y" : 129.05087731324997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 106,
+        "PMNTN_SPOT" : 14072,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010107",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.27467424365966,
+"y" : 129.05150952635975
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 107,
+        "PMNTN_SPOT" : 14073,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010108",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.24356137648141,
+"y" : 129.0507800371738
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 108,
+        "PMNTN_SPOT" : 14074,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010109",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.229779240004,
+"y" : 129.05046583591306
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 109,
+        "PMNTN_SPOT" : 14075,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010110",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.255621467222696,
+"y" : 129.05130520401283
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 110,
+        "PMNTN_SPOT" : 14076,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "4833003010111",
+        "MNTN_ID" : "483300301"
+      },
+      "geometry" : {
+"x" : 35.28134146843389,
+"y" : 129.05292255585996
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 111,
+        "PMNTN_SPOT" : 14077,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010112",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.219287879189565,
+"y" : 129.05141597821407
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 112,
+        "PMNTN_SPOT" : 14078,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2626001010113",
+        "MNTN_ID" : "262600101"
+      },
+      "geometry" : {
+"x" : 35.211370321720395,
+"y" : 129.0514463931176
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 113,
+        "PMNTN_SPOT" : 14079,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010114",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.26833249705179,
+"y" : 129.05303629233114
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 114,
+        "PMNTN_SPOT" : 14080,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010115",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.271202022615704,
+"y" : 129.0532498464675
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 115,
+        "PMNTN_SPOT" : 14081,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010116",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.21413278874336,
+"y" : 129.05210654660206
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 116,
+        "PMNTN_SPOT" : 14082,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010117",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.278007168458096,
+"y" : 129.05375230131617
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 117,
+        "PMNTN_SPOT" : 14083,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010118",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.25405392071472,
+"y" : 129.05324591449622
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 118,
+        "PMNTN_SPOT" : 14084,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010119",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.27023445206808,
+"y" : 129.0538199849545
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 119,
+        "PMNTN_SPOT" : 14085,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010120",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.28986326943456,
+"y" : 129.05466041451945
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 120,
+        "PMNTN_SPOT" : 14086,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010121",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.285235364511614,
+"y" : 129.05462230908824
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 121,
+        "PMNTN_SPOT" : 14087,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010122",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.26314285063745,
+"y" : 129.054298660497
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 122,
+        "PMNTN_SPOT" : 14088,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010123",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.24432342373789,
+"y" : 129.05506647324802
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 123,
+        "PMNTN_SPOT" : 14089,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010124",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.26197427953172,
+"y" : 129.05590617676629
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 124,
+        "PMNTN_SPOT" : 14090,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010125",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.27628364602326,
+"y" : 129.05650909893296
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 125,
+        "PMNTN_SPOT" : 14091,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010126",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.244310044318965,
+"y" : 129.0558539338816
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 126,
+        "PMNTN_SPOT" : 14092,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010127",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.26212852815635,
+"y" : 129.05633689144574
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 127,
+        "PMNTN_SPOT" : 14093,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010128",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.292855014331984,
+"y" : 129.05729128102433
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 128,
+        "PMNTN_SPOT" : 14094,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010129",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.250058208976384,
+"y" : 129.05664645220415
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 129,
+        "PMNTN_SPOT" : 14095,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010130",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.27550442793462,
+"y" : 129.05744032926057
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 130,
+        "PMNTN_SPOT" : 14096,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010131",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.24410712493102,
+"y" : 129.05670225508058
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 131,
+        "PMNTN_SPOT" : 14097,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010132",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.230129371810165,
+"y" : 129.056808756071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 132,
+        "PMNTN_SPOT" : 14098,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2626001010133",
+        "MNTN_ID" : "262600101"
+      },
+      "geometry" : {
+"x" : 35.21222908947741,
+"y" : 129.05796477628544
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 133,
+        "PMNTN_SPOT" : 14099,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010134",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.273017277361106,
+"y" : 129.0598185405634
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 134,
+        "PMNTN_SPOT" : 14100,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010135",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.230030339046564,
+"y" : 129.05946460481144
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 135,
+        "PMNTN_SPOT" : 14101,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010136",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.27155662014488,
+"y" : 129.06060329316668
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 136,
+        "PMNTN_SPOT" : 14102,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010137",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.2717521350068,
+"y" : 129.06063871840468
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 137,
+        "PMNTN_SPOT" : 14103,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010138",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.23016178467039,
+"y" : 129.05965954449317
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 138,
+        "PMNTN_SPOT" : 14104,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010139",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.22980941895213,
+"y" : 129.05978720995265
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 139,
+        "PMNTN_SPOT" : 14105,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010140",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.22637817523778,
+"y" : 129.06022554012645
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 140,
+        "PMNTN_SPOT" : 14106,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2632001010141",
+        "MNTN_ID" : "263200101"
+      },
+      "geometry" : {
+"x" : 35.22710878056298,
+"y" : 129.06024401564582
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 141,
+        "PMNTN_SPOT" : 14107,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010142",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.23563700173411,
+"y" : 129.06072229713206
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 142,
+        "PMNTN_SPOT" : 14108,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010143",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.241768480256795,
+"y" : 129.06120569969164
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 143,
+        "PMNTN_SPOT" : 14109,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010144",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.2628370452068,
+"y" : 129.0619012278603
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 144,
+        "PMNTN_SPOT" : 14110,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010145",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.241545877203926,
+"y" : 129.06162677334888
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 145,
+        "PMNTN_SPOT" : 14111,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010146",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.24151448747483,
+"y" : 129.06188856829817
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 146,
+        "PMNTN_SPOT" : 14112,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010147",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.2605965418493,
+"y" : 129.0634225575964
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 147,
+        "PMNTN_SPOT" : 14113,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010148",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.260579145481564,
+"y" : 129.06351128044852
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 148,
+        "PMNTN_SPOT" : 14114,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010149",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.226071835279484,
+"y" : 129.06282116638081
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 149,
+        "PMNTN_SPOT" : 14115,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010150",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.22647209793067,
+"y" : 129.06295519507302
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 150,
+        "PMNTN_SPOT" : 14116,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2626001010151",
+        "MNTN_ID" : "262600101"
+      },
+      "geometry" : {
+"x" : 35.223814480613235,
+"y" : 129.06330739271937
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 151,
+        "PMNTN_SPOT" : 14117,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010152",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.26393856759202,
+"y" : 129.06475385180727
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 152,
+        "PMNTN_SPOT" : 14118,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2626001010153",
+        "MNTN_ID" : "262600101"
+      },
+      "geometry" : {
+"x" : 35.22386549016395,
+"y" : 129.06409999860708
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 153,
+        "PMNTN_SPOT" : 14119,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010154",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.255485953382326,
+"y" : 129.0665054946532
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 154,
+        "PMNTN_SPOT" : 14120,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2626001010155",
+        "MNTN_ID" : "262600101"
+      },
+      "geometry" : {
+"x" : 35.223322719847715,
+"y" : 129.06592396568345
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 155,
+        "PMNTN_SPOT" : 14121,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010156",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.249349665954036,
+"y" : 129.06668277441165
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 156,
+        "PMNTN_SPOT" : 14122,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010157",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.290658919605654,
+"y" : 129.06795657789723
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 157,
+        "PMNTN_SPOT" : 14123,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010158",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.281707431171846,
+"y" : 129.06775719808672
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 158,
+        "PMNTN_SPOT" : 14124,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010159",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.25556183959852,
+"y" : 129.06716881007804
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 159,
+        "PMNTN_SPOT" : 14125,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010160",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.28297773170699,
+"y" : 129.06787452683022
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 160,
+        "PMNTN_SPOT" : 14126,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010161",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.29081129186851,
+"y" : 129.06807942030449
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 161,
+        "PMNTN_SPOT" : 14127,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010162",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.25235455562306,
+"y" : 129.06727194856614
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 162,
+        "PMNTN_SPOT" : 14128,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010163",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.23230120697504,
+"y" : 129.06684088288148
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 163,
+        "PMNTN_SPOT" : 14129,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010164",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.26893195317985,
+"y" : 129.06784132759856
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 164,
+        "PMNTN_SPOT" : 14130,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010165",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.24943225591486,
+"y" : 129.06760196226855
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 165,
+        "PMNTN_SPOT" : 14131,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010166",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.24974586803074,
+"y" : 129.06761826925307
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 166,
+        "PMNTN_SPOT" : 14132,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2626001010167",
+        "MNTN_ID" : "262600101"
+      },
+      "geometry" : {
+"x" : 35.213822744754395,
+"y" : 129.06715971809612
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 167,
+        "PMNTN_SPOT" : 14133,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010168",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.28524536733396,
+"y" : 129.0692925875932
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 168,
+        "PMNTN_SPOT" : 14134,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010169",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.28412786105699,
+"y" : 129.06941293272527
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 169,
+        "PMNTN_SPOT" : 14135,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010170",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.27115338062174,
+"y" : 129.06998629017934
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 170,
+        "PMNTN_SPOT" : 14136,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010171",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.27207296419521,
+"y" : 129.0700839085088
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 171,
+        "PMNTN_SPOT" : 14137,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010172",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.2482953963914,
+"y" : 129.07006995818267
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 172,
+        "PMNTN_SPOT" : 14138,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2626001010173",
+        "MNTN_ID" : "262600101"
+      },
+      "geometry" : {
+"x" : 35.22419751685797,
+"y" : 129.07145935370397
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 173,
+        "PMNTN_SPOT" : 14139,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010174",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.29032564023119,
+"y" : 129.07337577029986
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 174,
+        "PMNTN_SPOT" : 14140,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010175",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.27914963289318,
+"y" : 129.07354794130794
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 175,
+        "PMNTN_SPOT" : 14141,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010176",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.24627484517336,
+"y" : 129.07326831406826
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 176,
+        "PMNTN_SPOT" : 14142,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010177",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.27319165154084,
+"y" : 129.0741567138332
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 177,
+        "PMNTN_SPOT" : 14143,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010178",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.27306113767364,
+"y" : 129.0742516130211
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 178,
+        "PMNTN_SPOT" : 14144,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010179",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.273200404238395,
+"y" : 129.07438221351302
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 179,
+        "PMNTN_SPOT" : 14145,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010180",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.23277774627052,
+"y" : 129.07361392656432
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 180,
+        "PMNTN_SPOT" : 14146,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010181",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.23231341352385,
+"y" : 129.07399594524503
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 181,
+        "PMNTN_SPOT" : 14147,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010182",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.245256426759184,
+"y" : 129.07455538578128
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 182,
+        "PMNTN_SPOT" : 14148,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010183",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.23155524525873,
+"y" : 129.0742391977737
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 183,
+        "PMNTN_SPOT" : 14149,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010184",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.230186544069745,
+"y" : 129.0744118986198
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 184,
+        "PMNTN_SPOT" : 14150,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010185",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.246430063763924,
+"y" : 129.07512041178796
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 185,
+        "PMNTN_SPOT" : 14151,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010186",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.22828875390635,
+"y" : 129.07471393631172
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 186,
+        "PMNTN_SPOT" : 14152,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010187",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.228070892516996,
+"y" : 129.07489589043453
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 187,
+        "PMNTN_SPOT" : 14153,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010188",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.2752149700182,
+"y" : 129.07650652962505
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 188,
+        "PMNTN_SPOT" : 14154,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010189",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.27341504283603,
+"y" : 129.07661970388065
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 189,
+        "PMNTN_SPOT" : 14155,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010190",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.23077794827419,
+"y" : 129.07559781613676
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 190,
+        "PMNTN_SPOT" : 14156,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010191",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.27665267255794,
+"y" : 129.0777654364247
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 191,
+        "PMNTN_SPOT" : 14157,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2626001010192",
+        "MNTN_ID" : "262600101"
+      },
+      "geometry" : {
+"x" : 35.21945433321521,
+"y" : 129.0763922516073
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 192,
+        "PMNTN_SPOT" : 14158,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2626001010193",
+        "MNTN_ID" : "262600101"
+      },
+      "geometry" : {
+"x" : 35.22318337999943,
+"y" : 129.0772092323141
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 193,
+        "PMNTN_SPOT" : 14159,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010194",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.284374471615784,
+"y" : 129.08093979246883
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 194,
+        "PMNTN_SPOT" : 14160,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010195",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.28403347607276,
+"y" : 129.08112755005098
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 195,
+        "PMNTN_SPOT" : 14161,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010196",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.24050294122729,
+"y" : 129.08007986929564
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 196,
+        "PMNTN_SPOT" : 14162,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010197",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.22679615691386,
+"y" : 129.08009084461506
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 197,
+        "PMNTN_SPOT" : 14163,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "4833003010198",
+        "MNTN_ID" : "483300301"
+      },
+      "geometry" : {
+"x" : 35.29847719594765,
+"y" : 129.08279969149126
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 198,
+        "PMNTN_SPOT" : 14164,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010199",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.239612830149326,
+"y" : 129.0817310964509
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 199,
+        "PMNTN_SPOT" : 14165,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010200",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.2757553642367,
+"y" : 129.083107352602
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 200,
+        "PMNTN_SPOT" : 14166,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010201",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.27574927453159,
+"y" : 129.0833781473136
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 201,
+        "PMNTN_SPOT" : 14167,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010202",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.24212435378152,
+"y" : 129.0828784923008
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 202,
+        "PMNTN_SPOT" : 14168,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010203",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.24469421878145,
+"y" : 129.08376485740143
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 203,
+        "PMNTN_SPOT" : 14169,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010204",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.28035253930607,
+"y" : 129.08474770010554
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 204,
+        "PMNTN_SPOT" : 14170,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010205",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.27535843752729,
+"y" : 129.08464827602495
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 205,
+        "PMNTN_SPOT" : 14171,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010206",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.2576107538197,
+"y" : 129.08429253114343
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 206,
+        "PMNTN_SPOT" : 14172,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010207",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.26049025119775,
+"y" : 129.08439911937677
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 207,
+        "PMNTN_SPOT" : 14173,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010208",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.263812783667014,
+"y" : 129.08456735037456
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 208,
+        "PMNTN_SPOT" : 14174,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010209",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.25437229299538,
+"y" : 129.0847020231313
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 209,
+        "PMNTN_SPOT" : 14175,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010210",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.266080388178324,
+"y" : 129.0850348437587
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 210,
+        "PMNTN_SPOT" : 14176,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010211",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.27054738170235,
+"y" : 129.08521501651956
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 211,
+        "PMNTN_SPOT" : 14177,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010212",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.28244102412795,
+"y" : 129.08571705914787
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 212,
+        "PMNTN_SPOT" : 14178,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010213",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.28147265063917,
+"y" : 129.0864980662167
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 213,
+        "PMNTN_SPOT" : 14179,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "2641001010214",
+        "MNTN_ID" : "264100101"
+      },
+      "geometry" : {
+"x" : 35.24781552925964,
+"y" : 129.08704000466375
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 214,
+        "PMNTN_SPOT" : 14180,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "대정그리파크등산로",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000215",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.32803136373046,
+"y" : 129.0389170297691
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 215,
+        "PMNTN_SPOT" : 14181,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000216",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.32769945957149,
+"y" : 129.03906312483943
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 216,
+        "PMNTN_SPOT" : 14182,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000217",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.324872365157745,
+"y" : 129.03702596169
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 217,
+        "PMNTN_SPOT" : 14183,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000218",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.324069353948936,
+"y" : 129.03749144995206
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 218,
+        "PMNTN_SPOT" : 14184,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000219",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.32272903659524,
+"y" : 129.0381918303407
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 219,
+        "PMNTN_SPOT" : 14185,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000220",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.32025898521942,
+"y" : 129.04109030520837
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 220,
+        "PMNTN_SPOT" : 14186,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단끝",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000221",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.3180641318209,
+"y" : 129.04435418712902
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 221,
+        "PMNTN_SPOT" : 14187,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "공터설치필요",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000222",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.31681600176747,
+"y" : 129.04613767639682
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 222,
+        "PMNTN_SPOT" : 14188,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000223",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.314934773780735,
+"y" : 129.04740905128475
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 223,
+        "PMNTN_SPOT" : 14189,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000224",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.314672969905345,
+"y" : 129.04758954715393
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 224,
+        "PMNTN_SPOT" : 14190,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000225",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.314242059865094,
+"y" : 129.0482384437098
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 225,
+        "PMNTN_SPOT" : 14191,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000226",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.30388293139616,
+"y" : 129.05313009096702
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 226,
+        "PMNTN_SPOT" : 14192,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "철계단(7-8m)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000227",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.30309191998671,
+"y" : 129.05362477955018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 227,
+        "PMNTN_SPOT" : 14193,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000228",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.30152810734645,
+"y" : 129.0538170536425
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 228,
+        "PMNTN_SPOT" : 14194,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "장군봉",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000229",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.29781634201344,
+"y" : 129.05721600930787
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 229,
+        "PMNTN_SPOT" : 14195,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표(시외계명봉),분기,",
+        "ETC_MATTER" : "시외(계명봉가는길)",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000230",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.29594001335421,
+"y" : 129.05853218411556
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 230,
+        "PMNTN_SPOT" : 14196,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000231",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.29373640375671,
+"y" : 129.05809534253794
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 231,
+        "PMNTN_SPOT" : 14197,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기,",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000232",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.28430724569738,
+"y" : 129.05061905492045
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 232,
+        "PMNTN_SPOT" : 14198,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기,",
+        "ETC_MATTER" : "분기갈림길(시외구간)",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000233",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.280952102977025,
+"y" : 129.05204067356485
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 233,
+        "PMNTN_SPOT" : 14199,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000234",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.28046199746515,
+"y" : 129.0512231614168
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 234,
+        "PMNTN_SPOT" : 14200,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "극동아파트입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000235",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.32850728892235,
+"y" : 129.03705992596718
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 235,
+        "PMNTN_SPOT" : 14201,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000236",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.32715227964071,
+"y" : 129.03709430194107
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 236,
+        "PMNTN_SPOT" : 14202,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000237",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.3213545095751,
+"y" : 129.0397102161736
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 237,
+        "PMNTN_SPOT" : 14203,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "오성자원뒤등산로",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000238",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.31613046256759,
+"y" : 129.0323119750941
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 238,
+        "PMNTN_SPOT" : 14204,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "석산리간이배수지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000239",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.31564014751082,
+"y" : 129.03330107278973
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 239,
+        "PMNTN_SPOT" : 14205,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000240",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.31717764690696,
+"y" : 129.0342187059423
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 240,
+        "PMNTN_SPOT" : 14206,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "동면초등학교",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000241",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.31245216113876,
+"y" : 129.07213566635377
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 241,
+        "PMNTN_SPOT" : 14207,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "노인휴게소",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000242",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.31210919844049,
+"y" : 129.06882733853305
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 242,
+        "PMNTN_SPOT" : 14208,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "저수지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000243",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.311703462830465,
+"y" : 129.06323519595907
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 243,
+        "PMNTN_SPOT" : 14209,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "등산로안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000244",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.311593866856256,
+"y" : 129.06281919050826
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 244,
+        "PMNTN_SPOT" : 14210,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000245",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.311747381962945,
+"y" : 129.06167098600545
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 245,
+        "PMNTN_SPOT" : 14211,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "송정사",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000246",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.31189488672505,
+"y" : 129.06134198688792
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 246,
+        "PMNTN_SPOT" : 14212,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도시설비석",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000247",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.31178578831443,
+"y" : 129.06114888297515
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 247,
+        "PMNTN_SPOT" : 14213,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000248",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.310156931108736,
+"y" : 129.0566698251566
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 248,
+        "PMNTN_SPOT" : 14214,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "목계단(30m)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000249",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.31009743301716,
+"y" : 129.05645452274334
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 249,
+        "PMNTN_SPOT" : 14215,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "20",
+        "MANAGE_SP2" : "동굴",
+        "DETAIL_SPO" : "은동굴",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000250",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.30713472610097,
+"y" : 129.0554367641043
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 250,
+        "PMNTN_SPOT" : 14216,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판,이정표,",
+        "ETC_MATTER" : "이정표훼손",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000251",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.31095412360561,
+"y" : 129.06614210041133
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 251,
+        "PMNTN_SPOT" : 14217,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "바리케이트",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000252",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.31375618124556,
+"y" : 129.0545095758514
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 252,
+        "PMNTN_SPOT" : 14218,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000253",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.313803189987276,
+"y" : 129.05382237257163
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 253,
+        "PMNTN_SPOT" : 14219,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도시설비석",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000254",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.31551961108792,
+"y" : 129.0530427973508
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 254,
+        "PMNTN_SPOT" : 14220,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000255",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.31812420080118,
+"y" : 129.04695040493962
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 255,
+        "PMNTN_SPOT" : 14221,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도시설비석",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000256",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.31866521841503,
+"y" : 129.0457942071844
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 256,
+        "PMNTN_SPOT" : 14222,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사배못뚝입구도로",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000257",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.30131321850396,
+"y" : 129.07782760429706
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 257,
+        "PMNTN_SPOT" : 14223,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "사 송하나기도원",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000258",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.30078504171426,
+"y" : 129.0755731799567
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 258,
+        "PMNTN_SPOT" : 14224,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "솔바람농원",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000259",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.300015088737354,
+"y" : 129.07124123869372
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 259,
+        "PMNTN_SPOT" : 14225,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "등산로 안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000260",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.29510396557629,
+"y" : 129.07040204629013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 260,
+        "PMNTN_SPOT" : 14226,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000261",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.291535555963044,
+"y" : 129.06926007480553
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 261,
+        "PMNTN_SPOT" : 14227,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기,",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000262",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.29058776412654,
+"y" : 129.06801455043336
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 262,
+        "PMNTN_SPOT" : 14228,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "공터",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000263",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.29081726452036,
+"y" : 129.06809795521846
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 263,
+        "PMNTN_SPOT" : 14229,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "접점(시외구간)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000264",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.29133310370313,
+"y" : 129.0651633445163
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 264,
+        "PMNTN_SPOT" : 14230,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000265",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.30315762524465,
+"y" : 129.02819621748708
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 265,
+        "PMNTN_SPOT" : 14231,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "운동시설,음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000266",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.30462053658688,
+"y" : 129.0363874957206
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 266,
+        "PMNTN_SPOT" : 14232,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000267",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.30530870008088,
+"y" : 129.03982533081168
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 267,
+        "PMNTN_SPOT" : 14233,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "복천사가는길",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000268",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.30634559024303,
+"y" : 129.04122515815868
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 268,
+        "PMNTN_SPOT" : 14234,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000269",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.316121624586394,
+"y" : 129.04386184969928
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 269,
+        "PMNTN_SPOT" : 14235,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도끝등산로시작",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000270",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.287365293904244,
+"y" : 129.0386736033928
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 270,
+        "PMNTN_SPOT" : 14236,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000271",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.2863862462474,
+"y" : 129.04208590780746
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 271,
+        "PMNTN_SPOT" : 14237,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "금선사,임도비석",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000272",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.29594159884826,
+"y" : 129.0347022301362
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 272,
+        "PMNTN_SPOT" : 14238,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "바리케이트",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000273",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.295650295852795,
+"y" : 129.03475402550646
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 273,
+        "PMNTN_SPOT" : 14239,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판,마애여래입상,",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000274",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.28463905006986,
+"y" : 129.04915382214466
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 274,
+        "PMNTN_SPOT" : 14240,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000275",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.28364220198549,
+"y" : 129.04428367386885
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 275,
+        "PMNTN_SPOT" : 14241,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000276",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.28355865417657,
+"y" : 129.04817349739392
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 276,
+        "PMNTN_SPOT" : 14242,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000277",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.2835518781968,
+"y" : 129.04617418434435
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 277,
+        "PMNTN_SPOT" : 14243,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "로프",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000278",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.283433276323365,
+"y" : 129.04631588281924
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 278,
+        "PMNTN_SPOT" : 14244,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "14",
+        "MANAGE_SP2" : "조망점",
+        "DETAIL_SPO" : "조망",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000279",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.28334107433298,
+"y" : 129.04641658123626
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 279,
+        "PMNTN_SPOT" : 14245,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "동굴암자",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000280",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.283055166510955,
+"y" : 129.0468850794799
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 280,
+        "PMNTN_SPOT" : 14246,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "제실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000281",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.28506577854754,
+"y" : 129.0219727543659
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 281,
+        "PMNTN_SPOT" : 14247,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "호포농원(출입금지)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000282",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.2849212534701,
+"y" : 129.02392626529289
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 282,
+        "PMNTN_SPOT" : 14248,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "저수지",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000283",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.285779623743124,
+"y" : 129.02696189943615
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 283,
+        "PMNTN_SPOT" : 14249,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "호포임도등산로",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000284",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.27628797157278,
+"y" : 129.0175859706448
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 284,
+        "PMNTN_SPOT" : 14250,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "가산임도시설지구비석",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000285",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.28044977957152,
+"y" : 129.03600306344927
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 285,
+        "PMNTN_SPOT" : 14251,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "다리",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000286",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.284203395031184,
+"y" : 129.02005612669112
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 286,
+        "PMNTN_SPOT" : 14252,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000287",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.276284972102125,
+"y" : 129.017592369912
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 287,
+        "PMNTN_SPOT" : 14253,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "호포오른쪽임도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000288",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.28443909850213,
+"y" : 129.01989863041578
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 288,
+        "PMNTN_SPOT" : 14254,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "호포마을입구등산로",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000289",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.285064292992345,
+"y" : 129.02073814663828
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 289,
+        "PMNTN_SPOT" : 14255,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000290",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.30147128111741,
+"y" : 129.02259785075782
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 290,
+        "PMNTN_SPOT" : 14256,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000291",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.30379436630855,
+"y" : 129.02512480833389
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 291,
+        "PMNTN_SPOT" : 14257,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "임도접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000292",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.28043056962454,
+"y" : 129.0284689141178
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 292,
+        "PMNTN_SPOT" : 14258,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000293",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.31622698102262,
+"y" : 129.03227926777458
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 293,
+        "PMNTN_SPOT" : 14259,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000294",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.32810015411711,
+"y" : 129.0372296939119
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 294,
+        "PMNTN_SPOT" : 14260,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "비석,임도와임도접점,",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000295",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.29384526416523,
+"y" : 129.03640280412446
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 295,
+        "PMNTN_SPOT" : 14261,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "비석,임도와임도접점,",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000296",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.293472591443255,
+"y" : 129.03667066771453
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 296,
+        "PMNTN_SPOT" : 14262,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기,",
+        "ETC_MATTER" : "1-2구간",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000297",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.326313069138045,
+"y" : 129.0375201896418
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 297,
+        "PMNTN_SPOT" : 14263,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "대정그리파크등산로임도",
+        "ETC_MATTER" : "1-1구간",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000298",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.32731376312414,
+"y" : 129.03854591423698
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 298,
+        "PMNTN_SPOT" : 14264,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000299",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.32804166423397,
+"y" : 129.03885872894844
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 299,
+        "PMNTN_SPOT" : 14265,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000300",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.304701285543295,
+"y" : 129.0386812864332
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 300,
+        "PMNTN_SPOT" : 14266,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기,",
+        "ETC_MATTER" : "1-a구간",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000301",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.321499617413004,
+"y" : 129.03911041439264
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 301,
+        "PMNTN_SPOT" : 14267,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "06",
+        "MANAGE_SP2" : "음수대",
+        "DETAIL_SPO" : "음수대(석류정)",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000302",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.32049340836137,
+"y" : 129.0392786980971
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 302,
+        "PMNTN_SPOT" : 14268,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000303",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.28736809558712,
+"y" : 129.03849540238892
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 303,
+        "PMNTN_SPOT" : 14269,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "임도접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000304",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.28292840510291,
+"y" : 129.03852828612324
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 304,
+        "PMNTN_SPOT" : 14270,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "임도접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000305",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.28595297608797,
+"y" : 129.03934028312915
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 305,
+        "PMNTN_SPOT" : 14271,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "임도접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000306",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.284471760107195,
+"y" : 129.0398279592774
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 306,
+        "PMNTN_SPOT" : 14272,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "임도접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000307",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.28447378237806,
+"y" : 129.039947608286
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 307,
+        "PMNTN_SPOT" : 14273,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "임도접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000308",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.28385625467205,
+"y" : 129.0399774495037
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 308,
+        "PMNTN_SPOT" : 14274,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000309",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.31901996270139,
+"y" : 129.04135656770745
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 309,
+        "PMNTN_SPOT" : 14275,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000310",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.2857783313869,
+"y" : 129.04300970274227
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 310,
+        "PMNTN_SPOT" : 14276,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기,목계단시작",
+        "ETC_MATTER" : "1-1구간,2-b-2구간,4구간",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000311",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.31804263656341,
+"y" : 129.04397658480104
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 311,
+        "PMNTN_SPOT" : 14277,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000312",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.2835984816756,
+"y" : 129.04591388353327
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 312,
+        "PMNTN_SPOT" : 14278,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000313",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.28252452774655,
+"y" : 129.0498602896263
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 313,
+        "PMNTN_SPOT" : 14279,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000314",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.28379233490828,
+"y" : 129.0499284127184
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 314,
+        "PMNTN_SPOT" : 14280,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000315",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.2842889300112,
+"y" : 129.05061072587785
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 315,
+        "PMNTN_SPOT" : 14281,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000316",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.28159051287037,
+"y" : 129.05056177785286
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 316,
+        "PMNTN_SPOT" : 14282,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상,삼각점,이정표,조망",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000317",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.28008740293723,
+"y" : 129.0505345508922
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 317,
+        "PMNTN_SPOT" : 14283,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000318",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.285032947370304,
+"y" : 129.05092647719468
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 318,
+        "PMNTN_SPOT" : 14284,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기,",
+        "ETC_MATTER" : "이정표훼손",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000319",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.30518814022121,
+"y" : 129.05311001451835
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 319,
+        "PMNTN_SPOT" : 14285,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "임도와임도접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000320",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.31373358155677,
+"y" : 129.05467778873017
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 320,
+        "PMNTN_SPOT" : 14286,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "임도와임도접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000321",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.31367597690235,
+"y" : 129.05482927642598
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 321,
+        "PMNTN_SPOT" : 14287,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "오른쪽금련사,접점,",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000322",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.31027343065638,
+"y" : 129.05676352865774
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 322,
+        "PMNTN_SPOT" : 14288,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표,분기",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000323",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.29721373020319,
+"y" : 129.05786630270833
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 323,
+        "PMNTN_SPOT" : 14289,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "임도접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000324",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.311751699117856,
+"y" : 129.06024807706848
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 324,
+        "PMNTN_SPOT" : 14290,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "임도접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000325",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.311838471122954,
+"y" : 129.06423897956464
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 325,
+        "PMNTN_SPOT" : 14291,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000326",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.31158972055347,
+"y" : 129.0667201158948
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 326,
+        "PMNTN_SPOT" : 14292,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000327",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.3124545387036,
+"y" : 129.07240282443317
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 327,
+        "PMNTN_SPOT" : 14293,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000328",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.30128711848953,
+"y" : 129.07784450367504
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 328,
+        "PMNTN_SPOT" : 14294,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "4833003010329",
+        "MNTN_ID" : "483300301"
+      },
+      "geometry" : {
+"x" : 35.286587047490194,
+"y" : 129.03403907583092
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 329,
+        "PMNTN_SPOT" : 14295,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "임도접점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000330",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.27964799690217,
+"y" : 129.03556006639988
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 330,
+        "PMNTN_SPOT" : 14296,
+        "MNTN_CODE" : "264100101",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "비석,임도와임도접점,",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "금정산",
+        "PAST_SPOT_" : "28100402000331",
+        "MNTN_ID" : "2810040200"
+      },
+      "geometry" : {
+"x" : 35.30001907112132,
+"y" : 129.03488818496172
+      }
+    }
+  ]
+}

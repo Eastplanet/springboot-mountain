@@ -1,0 +1,3573 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 3069,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010001",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.300173145212845,
+"y" : 129.18222678821724
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 3070,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010002",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.301759671357026,
+"y" : 129.1767268346418
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 3071,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "수도암입구",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010003",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29765278987451,
+"y" : 129.16685597016357
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 3072,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010004",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29773040690375,
+"y" : 129.1664271515724
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 3073,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "자동차대리점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010005",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.30175464205401,
+"y" : 129.17003908255026
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 3074,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무쓰러짐",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010006",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29870019275657,
+"y" : 129.16688354691678
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 3075,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010007",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29915633581172,
+"y" : 129.16779465986107
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 3076,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010008",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29150927388552,
+"y" : 129.16610671168036
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 3077,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "11",
+        "MANAGE_SP2" : "안내판또는지도",
+        "DETAIL_SPO" : "안내판",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010009",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28349491810753,
+"y" : 129.15594734312677
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 3078,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010010",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28734229527072,
+"y" : 129.152769343918
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 3079,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010011",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28776038397917,
+"y" : 129.1523648334506
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 3080,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "10",
+        "MANAGE_SP2" : "이정표",
+        "DETAIL_SPO" : "이정표",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010012",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29585562630734,
+"y" : 129.15412444605445
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 3081,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "23",
+        "MANAGE_SP2" : "정상",
+        "DETAIL_SPO" : "정상",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010013",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29828453359769,
+"y" : 129.15031855946253
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 3082,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "05",
+        "MANAGE_SP2" : "벤치",
+        "DETAIL_SPO" : "벤치",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010014",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.27962272998647,
+"y" : 129.15125716460895
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 3083,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010015",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.279513514311816,
+"y" : 129.15083974576697
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 3084,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "09",
+        "MANAGE_SP2" : "기타건물",
+        "DETAIL_SPO" : "기타건물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010016",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.281360885379215,
+"y" : 129.15093747885604
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 3085,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "군사지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010017",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.292139844750345,
+"y" : 129.1379477918002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 3086,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "군사지역",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010018",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29291860802836,
+"y" : 129.13864877151588
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 3087,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "나무쓰러짐",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010019",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.2922509891604,
+"y" : 129.14196071200567
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 3088,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010020",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29202407667087,
+"y" : 129.137866151118
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 3089,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010021",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29302564549155,
+"y" : 129.13865812141685
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 3090,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010022",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.290045087342975,
+"y" : 129.13982669914844
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 3091,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010023",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28687214971089,
+"y" : 129.14063452667247
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 3092,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010024",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.286817230329305,
+"y" : 129.14071438623756
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 3093,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010025",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.289556858678665,
+"y" : 129.1412328032667
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 3094,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010026",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28863067646285,
+"y" : 129.1413488438309
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 3095,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010027",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.2889032714827,
+"y" : 129.14148144597576
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 3096,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010028",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28762942809667,
+"y" : 129.14242291192892
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 3097,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010029",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.290883755681776,
+"y" : 129.142605733773
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 3098,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010030",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28473229710488,
+"y" : 129.14268519395597
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 3099,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010031",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.287132760165036,
+"y" : 129.1427635479725
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 3100,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010032",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.287752977040604,
+"y" : 129.14302319586454
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 3101,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010033",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28534927434864,
+"y" : 129.1434223523867
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 3102,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010034",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.287338527083605,
+"y" : 129.14490821375506
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 3103,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010035",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.278978467278655,
+"y" : 129.14520595128354
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 3104,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010036",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.27937423719409,
+"y" : 129.14559774442583
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 3105,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010037",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.27950993593207,
+"y" : 129.1458873852
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 3106,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010038",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.280614657999784,
+"y" : 129.14599263120334
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 3107,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010039",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28442212442305,
+"y" : 129.14612668609976
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 3108,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010040",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.27916273064282,
+"y" : 129.1460731251504
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 3109,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010041",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28690207704561,
+"y" : 129.14653664487392
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 3110,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010042",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.284074441582696,
+"y" : 129.14654418769294
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 3111,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010043",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.278172338163024,
+"y" : 129.1464126003708
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 3112,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010044",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.27908035433964,
+"y" : 129.1464390468518
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 3113,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010045",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28281573204279,
+"y" : 129.14671635263525
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 3114,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010046",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.277169160466215,
+"y" : 129.1466972516998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 3115,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010047",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28464385235081,
+"y" : 129.14697955720533
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 3116,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010048",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28326329277651,
+"y" : 129.1470202783136
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 3117,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010049",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.280905254432724,
+"y" : 129.14707212582937
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 3118,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010050",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29281746273976,
+"y" : 129.14743345825596
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 50,
+        "PMNTN_SPOT" : 3119,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010051",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.303960925826196,
+"y" : 129.14779946688043
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 51,
+        "PMNTN_SPOT" : 3120,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010052",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28089363457631,
+"y" : 129.14731092694424
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 52,
+        "PMNTN_SPOT" : 3121,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010053",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28061236368858,
+"y" : 129.14731151406397
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 53,
+        "PMNTN_SPOT" : 3122,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010054",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.283735007960516,
+"y" : 129.14764270488774
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 54,
+        "PMNTN_SPOT" : 3123,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010055",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.276339124054914,
+"y" : 129.14746164173903
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 55,
+        "PMNTN_SPOT" : 3124,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010056",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.27804995036867,
+"y" : 129.14772989225585
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 56,
+        "PMNTN_SPOT" : 3125,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010057",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28040786320293,
+"y" : 129.14790188924485
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 57,
+        "PMNTN_SPOT" : 3126,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010058",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.27528029789376,
+"y" : 129.14784971500694
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 58,
+        "PMNTN_SPOT" : 3127,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010059",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28418511669113,
+"y" : 129.1481338344817
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 59,
+        "PMNTN_SPOT" : 3128,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010060",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28007132865854,
+"y" : 129.14803189172915
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 60,
+        "PMNTN_SPOT" : 3129,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010061",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.285290658428785,
+"y" : 129.14843204114305
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 61,
+        "PMNTN_SPOT" : 3130,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010062",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.279963604930266,
+"y" : 129.1484864116447
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 62,
+        "PMNTN_SPOT" : 3131,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010063",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.280243577162224,
+"y" : 129.14869842134047
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 63,
+        "PMNTN_SPOT" : 3132,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010064",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28109508173736,
+"y" : 129.1491392623689
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 64,
+        "PMNTN_SPOT" : 3133,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010065",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.27861111852932,
+"y" : 129.14910854859875
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 65,
+        "PMNTN_SPOT" : 3134,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010066",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29150248527914,
+"y" : 129.149486571557
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 66,
+        "PMNTN_SPOT" : 3135,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010067",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28565347977196,
+"y" : 129.1493802864236
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 67,
+        "PMNTN_SPOT" : 3136,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010068",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.27914438547529,
+"y" : 129.14926595338255
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 68,
+        "PMNTN_SPOT" : 3137,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010069",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29069212257242,
+"y" : 129.14968086372133
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 69,
+        "PMNTN_SPOT" : 3138,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010070",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29085361562046,
+"y" : 129.14991742069412
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 70,
+        "PMNTN_SPOT" : 3139,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010071",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28470174377715,
+"y" : 129.14975747480807
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 71,
+        "PMNTN_SPOT" : 3140,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010072",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.27568751804148,
+"y" : 129.1501792495983
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 72,
+        "PMNTN_SPOT" : 3141,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010073",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28773448411356,
+"y" : 129.15057353710245
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 73,
+        "PMNTN_SPOT" : 3142,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010074",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.280957425014314,
+"y" : 129.1505096254831
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 74,
+        "PMNTN_SPOT" : 3143,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010075",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28800708706378,
+"y" : 129.1507526139012
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 75,
+        "PMNTN_SPOT" : 3144,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010076",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.27955020670317,
+"y" : 129.1506208657036
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 76,
+        "PMNTN_SPOT" : 3145,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010077",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.279535202613566,
+"y" : 129.15081254419383
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 77,
+        "PMNTN_SPOT" : 3146,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010078",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28719574945101,
+"y" : 129.15114862926475
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 78,
+        "PMNTN_SPOT" : 3147,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010079",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28758301008384,
+"y" : 129.15122196018538
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 79,
+        "PMNTN_SPOT" : 3148,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010080",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.2810853719919,
+"y" : 129.15105868073024
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 80,
+        "PMNTN_SPOT" : 3149,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010081",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28759718714934,
+"y" : 129.15145210902205
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 81,
+        "PMNTN_SPOT" : 3150,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010082",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.27962946955573,
+"y" : 129.15130203948922
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 82,
+        "PMNTN_SPOT" : 3151,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010083",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.27915480401936,
+"y" : 129.15130612152007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 83,
+        "PMNTN_SPOT" : 3152,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010084",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28748040986132,
+"y" : 129.15161381121538
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 84,
+        "PMNTN_SPOT" : 3153,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010085",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28796475976283,
+"y" : 129.15171851726004
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 85,
+        "PMNTN_SPOT" : 3154,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010086",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.30597493115533,
+"y" : 129.15227263181728
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 86,
+        "PMNTN_SPOT" : 3155,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010087",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.303895464057256,
+"y" : 129.15229611714187
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 87,
+        "PMNTN_SPOT" : 3156,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010088",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.27837575414026,
+"y" : 129.15163409848853
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 88,
+        "PMNTN_SPOT" : 3157,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010089",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.30658044556,
+"y" : 129.15243610510805
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 89,
+        "PMNTN_SPOT" : 3158,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010090",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28748948116118,
+"y" : 129.15193844571232
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 90,
+        "PMNTN_SPOT" : 3159,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010091",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28096515198289,
+"y" : 129.15208483352808
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 91,
+        "PMNTN_SPOT" : 3160,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010092",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29729341933875,
+"y" : 129.15268351176877
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 92,
+        "PMNTN_SPOT" : 3161,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010093",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28795892766557,
+"y" : 129.1524726453253
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 93,
+        "PMNTN_SPOT" : 3162,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010094",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.279771663701105,
+"y" : 129.15229796205682
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 94,
+        "PMNTN_SPOT" : 3163,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010095",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.30955060666056,
+"y" : 129.15309437654133
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 95,
+        "PMNTN_SPOT" : 3164,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010096",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.2877062366548,
+"y" : 129.15257739799736
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 96,
+        "PMNTN_SPOT" : 3165,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010097",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28732715382527,
+"y" : 129.15277454575423
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 97,
+        "PMNTN_SPOT" : 3166,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010098",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.292559768427516,
+"y" : 129.15294918690932
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 98,
+        "PMNTN_SPOT" : 3167,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010099",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29187884418511,
+"y" : 129.15324340426605
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 99,
+        "PMNTN_SPOT" : 3168,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010100",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29585842023141,
+"y" : 129.1541624021087
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 100,
+        "PMNTN_SPOT" : 3169,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010101",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28369459634875,
+"y" : 129.15629970807137
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 101,
+        "PMNTN_SPOT" : 3170,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010102",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.30234598760608,
+"y" : 129.15774863957176
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 102,
+        "PMNTN_SPOT" : 3171,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010103",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.30871364957842,
+"y" : 129.158041768577
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 103,
+        "PMNTN_SPOT" : 3172,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010104",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.30788065260552,
+"y" : 129.1580356177207
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 104,
+        "PMNTN_SPOT" : 3173,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010105",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.3141715465208,
+"y" : 129.15921749733909
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 105,
+        "PMNTN_SPOT" : 3174,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010106",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.31671667462109,
+"y" : 129.16000309400957
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 106,
+        "PMNTN_SPOT" : 3175,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010107",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.30724635571412,
+"y" : 129.16037407555754
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 107,
+        "PMNTN_SPOT" : 3176,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010108",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.30126626483064,
+"y" : 129.16185068396695
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 108,
+        "PMNTN_SPOT" : 3177,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010109",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28835382258302,
+"y" : 129.1636386606175
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 109,
+        "PMNTN_SPOT" : 3178,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010110",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29947237664889,
+"y" : 129.16410976931851
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 110,
+        "PMNTN_SPOT" : 3179,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010111",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.30118659309689,
+"y" : 129.16440037214272
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 111,
+        "PMNTN_SPOT" : 3180,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010112",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28713410076848,
+"y" : 129.16402714146216
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 112,
+        "PMNTN_SPOT" : 3181,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010113",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28758261993702,
+"y" : 129.16421777578267
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 113,
+        "PMNTN_SPOT" : 3182,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010114",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29931389670505,
+"y" : 129.16454561351054
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 114,
+        "PMNTN_SPOT" : 3183,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010115",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.301276857451015,
+"y" : 129.164632192892
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 115,
+        "PMNTN_SPOT" : 3184,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010116",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.30168993400162,
+"y" : 129.16466158795825
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 116,
+        "PMNTN_SPOT" : 3185,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010117",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.303837371476924,
+"y" : 129.1650954649822
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 117,
+        "PMNTN_SPOT" : 3186,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010118",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.30194298423316,
+"y" : 129.16504665249678
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 118,
+        "PMNTN_SPOT" : 3187,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010119",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.30087452532685,
+"y" : 129.16506088971033
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 119,
+        "PMNTN_SPOT" : 3188,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010120",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.299384826907584,
+"y" : 129.16506165649622
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 120,
+        "PMNTN_SPOT" : 3189,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010121",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.30077858167033,
+"y" : 129.16514738851748
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 121,
+        "PMNTN_SPOT" : 3190,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010122",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29775008728847,
+"y" : 129.16545211986679
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 122,
+        "PMNTN_SPOT" : 3191,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010123",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.30043475872706,
+"y" : 129.1655426268808
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 123,
+        "PMNTN_SPOT" : 3192,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010124",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.300338938893546,
+"y" : 129.16558954901436
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 124,
+        "PMNTN_SPOT" : 3193,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010125",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28789556688611,
+"y" : 129.16525912043645
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 125,
+        "PMNTN_SPOT" : 3194,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010126",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29987039022453,
+"y" : 129.16574235145055
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 126,
+        "PMNTN_SPOT" : 3195,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010127",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.289842153242155,
+"y" : 129.16580290879796
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 127,
+        "PMNTN_SPOT" : 3196,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010128",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.299231270308574,
+"y" : 129.1662020981867
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 128,
+        "PMNTN_SPOT" : 3197,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010129",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.300769098305864,
+"y" : 129.1663815545479
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 129,
+        "PMNTN_SPOT" : 3198,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010130",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29835519416057,
+"y" : 129.16639789899463
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 130,
+        "PMNTN_SPOT" : 3199,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010131",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29811128041637,
+"y" : 129.16644232344652
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 131,
+        "PMNTN_SPOT" : 3200,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010132",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29885902975988,
+"y" : 129.16660870417752
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 132,
+        "PMNTN_SPOT" : 3201,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010133",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.298036429580115,
+"y" : 129.1666764305398
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 133,
+        "PMNTN_SPOT" : 3202,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010134",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29761372165871,
+"y" : 129.166785384158
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 134,
+        "PMNTN_SPOT" : 3203,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010135",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.297338063629056,
+"y" : 129.16770956962168
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 135,
+        "PMNTN_SPOT" : 3204,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010136",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.2934158215891,
+"y" : 129.16761227015152
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 136,
+        "PMNTN_SPOT" : 3205,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010137",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.299125779736336,
+"y" : 129.1677906844367
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 137,
+        "PMNTN_SPOT" : 3206,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010138",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.289137363034044,
+"y" : 129.1678690914595
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 138,
+        "PMNTN_SPOT" : 3207,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010139",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29423851294235,
+"y" : 129.16844054852646
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 139,
+        "PMNTN_SPOT" : 3208,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010140",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29065315248562,
+"y" : 129.16843717026066
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 140,
+        "PMNTN_SPOT" : 3209,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010141",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29188471910264,
+"y" : 129.1684797779562
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 141,
+        "PMNTN_SPOT" : 3210,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010142",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29099561724431,
+"y" : 129.16853067574056
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 142,
+        "PMNTN_SPOT" : 3211,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010143",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.301598862833494,
+"y" : 129.16908708360202
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 143,
+        "PMNTN_SPOT" : 3212,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010144",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.30179211194609,
+"y" : 129.16999122417855
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 144,
+        "PMNTN_SPOT" : 3213,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010145",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29775557299469,
+"y" : 129.17029705064385
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 145,
+        "PMNTN_SPOT" : 3214,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010146",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.2959974553685,
+"y" : 129.1703253309041
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 146,
+        "PMNTN_SPOT" : 3215,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010147",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.302621665543896,
+"y" : 129.17074374937016
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 147,
+        "PMNTN_SPOT" : 3216,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010148",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.287307929213085,
+"y" : 129.17102881660261
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 148,
+        "PMNTN_SPOT" : 3217,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010149",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.288548198720015,
+"y" : 129.1712965355027
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 149,
+        "PMNTN_SPOT" : 3218,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010150",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.30667653319324,
+"y" : 129.17228078919982
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 150,
+        "PMNTN_SPOT" : 3219,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010151",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.290060823050474,
+"y" : 129.17253928115676
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 151,
+        "PMNTN_SPOT" : 3220,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010152",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29094493377434,
+"y" : 129.17260973489448
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 152,
+        "PMNTN_SPOT" : 3221,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010153",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29699498685828,
+"y" : 129.17282356744494
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 153,
+        "PMNTN_SPOT" : 3222,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010154",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29185267525214,
+"y" : 129.17356484607183
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 154,
+        "PMNTN_SPOT" : 3223,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010155",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.289835037022655,
+"y" : 129.17410276807666
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 155,
+        "PMNTN_SPOT" : 3224,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010156",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29053102207141,
+"y" : 129.17458517532475
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 156,
+        "PMNTN_SPOT" : 3225,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010157",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29139234684714,
+"y" : 129.17534553816884
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 157,
+        "PMNTN_SPOT" : 3226,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010158",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29357790076174,
+"y" : 129.17565545938817
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 158,
+        "PMNTN_SPOT" : 3227,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010159",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.2902964884763,
+"y" : 129.17594478851055
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 159,
+        "PMNTN_SPOT" : 3228,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010160",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29361399873087,
+"y" : 129.1768504945179
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 160,
+        "PMNTN_SPOT" : 3229,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010161",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.296136418265135,
+"y" : 129.17764150361822
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 161,
+        "PMNTN_SPOT" : 3230,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010162",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29283662952294,
+"y" : 129.1798008107196
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 162,
+        "PMNTN_SPOT" : 3231,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010163",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.292499940652704,
+"y" : 129.1803882977555
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 163,
+        "PMNTN_SPOT" : 3232,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010164",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29523900744084,
+"y" : 129.180989601278
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 164,
+        "PMNTN_SPOT" : 3233,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010165",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.2956011520079,
+"y" : 129.181423550556
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 165,
+        "PMNTN_SPOT" : 3234,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010166",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.300280316727935,
+"y" : 129.18219261951043
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 166,
+        "PMNTN_SPOT" : 3235,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010167",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.294742928968496,
+"y" : 129.18208622415997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 167,
+        "PMNTN_SPOT" : 3236,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010168",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29204977247355,
+"y" : 129.1827640019591
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 168,
+        "PMNTN_SPOT" : 3237,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010169",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.30242083612357,
+"y" : 129.1838929790351
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 169,
+        "PMNTN_SPOT" : 3238,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010170",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.31452371714699,
+"y" : 129.1568810865093
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 170,
+        "PMNTN_SPOT" : 95851,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010171",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29597531956877,
+"y" : 129.17037310079883
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 171,
+        "PMNTN_SPOT" : 95852,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010172",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29052297572602,
+"y" : 129.1745620412014
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 172,
+        "PMNTN_SPOT" : 95853,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "작업로길, 길아님",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010173",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.302167619217705,
+"y" : 129.18358004739306
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 173,
+        "PMNTN_SPOT" : 95854,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지, 길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010174",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29474443833278,
+"y" : 129.18208412799768
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 174,
+        "PMNTN_SPOT" : 95855,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010175",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.292330785240985,
+"y" : 129.18230616448793
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 175,
+        "PMNTN_SPOT" : 95856,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010176",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.296145640086756,
+"y" : 129.17766342913353
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 176,
+        "PMNTN_SPOT" : 95857,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010177",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29364179833303,
+"y" : 129.17670085150968
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 177,
+        "PMNTN_SPOT" : 95858,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010178",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.29803819039147,
+"y" : 129.16667768658118
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 178,
+        "PMNTN_SPOT" : 95859,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "03",
+        "MANAGE_SP2" : "정자",
+        "DETAIL_SPO" : "정자, 벤치, 시설물(운동기구등), 기타건물",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010179",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.289562157936416,
+"y" : 129.16790102572492
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 179,
+        "PMNTN_SPOT" : 95860,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010180",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.293416659967306,
+"y" : 129.16761109558573
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 180,
+        "PMNTN_SPOT" : 95861,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010181",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.284108389376506,
+"y" : 129.14810339054682
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 181,
+        "PMNTN_SPOT" : 95862,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010182",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.280839027992464,
+"y" : 129.14709286788047
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 182,
+        "PMNTN_SPOT" : 95863,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "계곡, 길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010183",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.30212822422446,
+"y" : 129.15771927727155
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 183,
+        "PMNTN_SPOT" : 95864,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지, 길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010184",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.2914934329971,
+"y" : 129.14949830558223
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 184,
+        "PMNTN_SPOT" : 95865,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지, 길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010185",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28058899591361,
+"y" : 129.14602358792717
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 185,
+        "PMNTN_SPOT" : 95866,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010186",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28615273515472,
+"y" : 129.14984179692118
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 186,
+        "PMNTN_SPOT" : 95867,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010187",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.279597081063955,
+"y" : 129.1507023665854
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 187,
+        "PMNTN_SPOT" : 95868,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010188",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28002925155983,
+"y" : 129.1509828250798
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 188,
+        "PMNTN_SPOT" : 95869,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010189",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28007510098642,
+"y" : 129.14803725746958
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 189,
+        "PMNTN_SPOT" : 95870,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지, 길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010190",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.290861855693684,
+"y" : 129.14262631919442
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 190,
+        "PMNTN_SPOT" : 95871,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지, 길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010191",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.287618311392826,
+"y" : 129.14245080147705
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 191,
+        "PMNTN_SPOT" : 95872,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "묘지, 길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010192",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.287336931399246,
+"y" : 129.14487853628975
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 192,
+        "PMNTN_SPOT" : 95873,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010193",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.28713584941643,
+"y" : 129.14275824966424
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 193,
+        "PMNTN_SPOT" : 95874,
+        "MNTN_CODE" : "267100301",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "거문산",
+        "PAST_SPOT_" : "2671003010194",
+        "MNTN_ID" : "267100301"
+      },
+      "geometry" : {
+"x" : 35.289531145437714,
+"y" : 129.14128345421952
+      }
+    }
+  ]
+}

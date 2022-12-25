@@ -1,0 +1,999 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SPOT" : "PMNTN_SPOT",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MANAGE_SP1" : "MANAGE_SP1",
+    "MANAGE_SP2" : "MANAGE_SP2",
+    "DETAIL_SPO" : "DETAIL_SPO",
+    "ETC_MATTER" : "ETC_MATTER",
+    "MNTN_NM" : "MNTN_NM",
+    "PAST_SPOT_" : "PAST_SPOT_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SPOT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SPOT"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MANAGE_SP1",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP1",
+      "length" : 2
+    },
+    {
+      "name" : "MANAGE_SP2",
+      "type" : "esriFieldTypeString",
+      "alias" : "MANAGE_SP2",
+      "length" : 50
+    },
+    {
+      "name" : "DETAIL_SPO",
+      "type" : "esriFieldTypeString",
+      "alias" : "DETAIL_SPO",
+      "length" : 200
+    },
+    {
+      "name" : "ETC_MATTER",
+      "type" : "esriFieldTypeString",
+      "alias" : "ETC_MATTER",
+      "length" : 200
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PAST_SPOT_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PAST_SPOT_",
+      "length" : 14
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SPOT" : 307,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "07",
+        "MANAGE_SP2" : "시설물(운동기구 등)",
+        "DETAIL_SPO" : "체육시설",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040001",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.063108196183634,
+"y" : 128.82993958919212
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SPOT" : 308,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "04",
+        "MANAGE_SP2" : "화장실",
+        "DETAIL_SPO" : "화장실",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040002",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.022894087746764,
+"y" : 128.8217720950397
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SPOT" : 309,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "대항",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040003",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.01215293087583,
+"y" : 128.82744203314348
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SPOT" : 310,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "외항도",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040004",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.00558914569927,
+"y" : 128.8240176898243
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SPOT" : 311,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "게시판,비석",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040005",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.05613369927545,
+"y" : 128.83174924205574
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SPOT" : 312,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "농장",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040006",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.04434907795833,
+"y" : 128.83775168990618
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SPOT" : 313,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040007",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.05544038267659,
+"y" : 128.8158099903134
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SPOT" : 314,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040008",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.054660133680024,
+"y" : 128.816407259696
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SPOT" : 315,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040009",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.05559644885852,
+"y" : 128.81656856695005
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SPOT" : 316,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040010",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.04388319830089,
+"y" : 128.81827987151266
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "PMNTN_SPOT" : 317,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040011",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.04433734306815,
+"y" : 128.818675232909
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "PMNTN_SPOT" : 318,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040012",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.04728647806254,
+"y" : 128.81877715618967
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "PMNTN_SPOT" : 319,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040013",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.044521362307925,
+"y" : 128.81883078243678
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "PMNTN_SPOT" : 320,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040014",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.0457127876304,
+"y" : 128.81974548206003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "PMNTN_SPOT" : 321,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040015",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.05542636914699,
+"y" : 128.81997406646852
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "PMNTN_SPOT" : 322,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040016",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.05530173611945,
+"y" : 128.82016710922537
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "PMNTN_SPOT" : 323,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040017",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.056319405126544,
+"y" : 128.82107759130062
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "PMNTN_SPOT" : 324,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040018",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.022716829545,
+"y" : 128.82153514595223
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "PMNTN_SPOT" : 325,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040019",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.05061004324535,
+"y" : 128.82491363567132
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "PMNTN_SPOT" : 326,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040020",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.005404220869245,
+"y" : 128.8242101805631
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "PMNTN_SPOT" : 327,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040021",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.051076772073024,
+"y" : 128.826199413308
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "PMNTN_SPOT" : 328,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040022",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.05115672566744,
+"y" : 128.8279448606653
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "PMNTN_SPOT" : 329,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040023",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.0624536540343,
+"y" : 128.82868783473867
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "PMNTN_SPOT" : 330,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040024",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.05374785071305,
+"y" : 128.82939988226866
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "PMNTN_SPOT" : 331,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040025",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.063132420395526,
+"y" : 128.82993824797282
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "PMNTN_SPOT" : 332,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040026",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.057170261179074,
+"y" : 128.8299144364095
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "PMNTN_SPOT" : 333,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040027",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.056411276700835,
+"y" : 128.8319258490271
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "PMNTN_SPOT" : 334,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040028",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.05986030847401,
+"y" : 128.83250112465672
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "PMNTN_SPOT" : 335,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040029",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.06550735347057,
+"y" : 128.83496066263018
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "PMNTN_SPOT" : 336,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040030",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.06676502895527,
+"y" : 128.83070876201944
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "PMNTN_SPOT" : 337,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040031",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.04011181565831,
+"y" : 128.82852713572302
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "PMNTN_SPOT" : 338,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040032",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.04217670986179,
+"y" : 128.8414680166414
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "PMNTN_SPOT" : 339,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040033",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.03962352863486,
+"y" : 128.8418034184516
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "PMNTN_SPOT" : 340,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040034",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.04390743589231,
+"y" : 128.84293413701695
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "PMNTN_SPOT" : 341,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040035",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.037599885583326,
+"y" : 128.84835085836357
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "PMNTN_SPOT" : 342,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040036",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.03759929858587,
+"y" : 128.84866702355865
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "PMNTN_SPOT" : 343,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "01",
+        "MANAGE_SP2" : "시종점",
+        "DETAIL_SPO" : "시종점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040037",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.04293615574212,
+"y" : 128.8503475403979
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "PMNTN_SPOT" : 344,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "02",
+        "MANAGE_SP2" : "분기점",
+        "DETAIL_SPO" : "분기점",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040038",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.06233077473736,
+"y" : 128.828820270117
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "PMNTN_SPOT" : 95813,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040039",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.06226221056836,
+"y" : 128.82919033079597
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "PMNTN_SPOT" : 95814,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040040",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.06850647687952,
+"y" : 128.83874855018166
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "PMNTN_SPOT" : 95815,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040041",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.05544177341862,
+"y" : 128.81590459459946
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "PMNTN_SPOT" : 95816,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040042",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.054667870599545,
+"y" : 128.8163582240893
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "PMNTN_SPOT" : 95817,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040043",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.05967077784565,
+"y" : 128.81372890379868
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "PMNTN_SPOT" : 95818,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040044",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.05927154763715,
+"y" : 128.81711653410363
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "PMNTN_SPOT" : 95819,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040045",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.06184210999509,
+"y" : 128.82351712348986
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "PMNTN_SPOT" : 95820,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040046",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.04719565634564,
+"y" : 128.80624026148115
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "PMNTN_SPOT" : 95821,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040047",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.051492890071366,
+"y" : 128.80500971284945
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "PMNTN_SPOT" : 95822,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040048",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.04434019265379,
+"y" : 128.81867716119382
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "PMNTN_SPOT" : 95823,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040049",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.045707113747035,
+"y" : 128.8198163454958
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "PMNTN_SPOT" : 95824,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040050",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.05231582632699,
+"y" : 128.83869926385134
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 50,
+        "PMNTN_SPOT" : 95825,
+        "MNTN_CODE" : "264400404",
+        "MANAGE_SP1" : "99",
+        "MANAGE_SP2" : "기타",
+        "DETAIL_SPO" : "길없음",
+        "ETC_MATTER" : " ",
+        "MNTN_NM" : "가덕도",
+        "PAST_SPOT_" : "2644004040051",
+        "MNTN_ID" : "264400404"
+      },
+      "geometry" : {
+"x" : 35.043905843365735,
+"y" : 128.84293212547072
+      }
+    }
+  ]
+}

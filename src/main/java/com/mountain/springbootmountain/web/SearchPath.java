@@ -259,22 +259,6 @@ public class SearchPath {
                     }
 
 
-//                    System.out.println("cant find start to end pos");
-//                    System.out.println("start = " + start);
-//                    System.out.println("end = " + end);
-//                    ArrayList<ArrayList<Double>> arrayLists = new ArrayList<>();
-//                    ArrayList<Double> temp = new ArrayList<>();
-//                    temp.add(start.get(0)); temp.add(start.get(1));
-//                    arrayLists.add(temp);
-//
-//                    ArrayList<Double> temp2 = new ArrayList<>();
-//                    temp2.add(end.get(0)); temp2.add(end.get(1));
-//                    arrayLists.add(temp2);
-//
-//                    lineString.add(arrayLists);
-//
-//
-
 
                     start = new ArrayList<>();
                     start.add(end.get(0));
