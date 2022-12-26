@@ -732,19 +732,7 @@ public class SearchPath {
     }
 
 
-    int findPosition(Pos p){
 
-        ArrayList<ArrayList<Double>> startList = MountainMetaData.getStartList(name);
-        int i = 0;
-        for (ArrayList<Double> doubles : startList) {
-            if(doubles.get(0)== p.x && doubles.get(1)==p.y){
-                return i;
-            }
-            i++;
-        }
-
-        return -1;
-    }
 
     //두 점 사이의 거리
     double getNodeDist(double x1, double x2, double y1, double y2){

@@ -7,11 +7,8 @@ import net.minidev.json.JSONObject;
 import net.minidev.json.parser.JSONParser;
 import net.minidev.json.parser.ParseException;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
 
 public class TranJsonToMap {
     final private String dir = "C:/Users/PC/OneDrive/프로젝트/springboot-mountain/src/main/resources/data/";
