@@ -165,20 +165,12 @@ public class MountainMetaData {
 
                 for (Feature feature : Features) {
                     String manage_sp2 = feature.attributes.MANAGE_SP2;
-                    //(manage_sp2.equals("시종점")||manage_sp2.equals("조망점")){
-                    //if(manage_sp2.equals("시종점")||manage_sp2.equals("조망점")||manage_sp2.equals("정상")){
                     if(manage_sp2.equals("시종점")||manage_sp2.equals("정상")){
                         ArrayList<Double> pos = new ArrayList<>();
                         pos.add(feature.geometry.x);
                         pos.add(feature.geometry.y);
                         starts.add(pos);
                     }
-//                    else if(manage_sp2.equals("정상")){
-//                        ArrayList<Double> pos = new ArrayList<>();
-//                        pos.add(feature.geometry.x);
-//                        pos.add(feature.geometry.y);
-//                        ends.add(pos);
-//                    }
                 }
 
                 mountainsStartList.add(starts);
