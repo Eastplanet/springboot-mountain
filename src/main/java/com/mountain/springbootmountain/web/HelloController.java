@@ -77,45 +77,6 @@ public class HelloController {
         return new ModelAndView("maprout");
     }
 
-    private ArrayList<Edge> makeEdgeToMap(ArrayList<Edge> edges, Feature feature) {
-
-        //posList추출
-        ArrayList<ArrayList<Double>> posList = feature.getGeometry().getPaths().get(0);
-
-        Edge edge = new Edge();
-
-        //시작점 추출
-        ArrayList<Double> start = posList.get(0);
-        Pos startPos = new Pos();
-        startPos.x = start.get(0);
-        startPos.y = start.get(1);
-        edge.start = startPos;
-
-        //끝 점 추출
-        ArrayList<Double> end = posList.get(posList.size() - 1);
-        Pos endPos = new Pos();
-        endPos.x = end.get(0);
-        endPos.y = end.get(1);
-        edge.end = endPos;
-
-        //길이와 난이도, 시간 삽입
-        edge.length = feature.getAttributes().getPMNTN_LT();
-        if(feature.getAttributes().getPMNTN_DFFL().equals("쉬움")){
-            edge.difficulty = Difficulty.쉬움;
-        }
-        else if(feature.getAttributes().getPMNTN_DFFL().equals("중간")){
-            edge.difficulty = Difficulty.중간;
-        }
-        else{
-            edge.difficulty = Difficulty.어려움;
-        }
-        edge.upTime = feature.getAttributes().PMNTN_UPPL;
-        edge.downTime = feature.getAttributes().PMNTN_GODN;
-
-        edges.add(edge);
-
-        return edges;
-    }
 
 
     @PostMapping("/path") @ResponseBody
