@@ -86,7 +86,6 @@ public class HelloController {
         int start = (int)result.get("START");
         int end = (int)result.get("END");
 
-        //path 리스트 주고 몇번 할껀지 고르게 하기
 
 
 
