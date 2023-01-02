@@ -709,8 +709,11 @@ public class SearchPath {
         }
     }
 
-    //데이터 확인용 함수
+
     void findLength(){
+
+        //두 점 사이의 길이 확인
+        // 디버깅 용
 
         ArrayList<Feature> features = mountain.getFeatures();
 
