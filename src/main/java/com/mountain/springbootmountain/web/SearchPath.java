@@ -638,7 +638,6 @@ public class SearchPath {
         ArrayList<ArrayList<Double>> startList = MountainMetaData.getStartList(name);
         for (ArrayList<Double> endPos : startList) {
 
-            int samePosFlag = 0;
     
             double minDist=Double.MAX_VALUE;
             //내가 찾고있는 정점이 포함된 edge
