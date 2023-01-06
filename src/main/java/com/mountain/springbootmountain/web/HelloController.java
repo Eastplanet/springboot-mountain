@@ -218,6 +218,7 @@ public class HelloController {
         return "login";
     }
 
+
     @GetMapping("/kakao")
     public String getCI(@RequestParam String code, Model model) throws IOException {
 
@@ -234,21 +235,7 @@ public class HelloController {
         return "welcome";
     }
 
-    @GetMapping("/kakao2")
-    public String getCI2(@RequestParam String code, Model model) throws IOException {
 
-        log.info("kakao2 controller");
-
-        System.out.println("code = " + code);
-        String access_token = ks.getToken(code);
-        Map<String, Object> userInfo = ks.getUserInfo(access_token);
-        model.addAttribute("code", code);
-        model.addAttribute("access_token", access_token);
-        model.addAttribute("userInfo", userInfo);
-
-        //ci는 비즈니스 전환후 검수신청 -> 허락받아야 수집 가능
-        return "welcome";
-    }
 
 
 
