@@ -33,6 +33,7 @@ public class HelloController {
 
     final private String DIR = "C:/Users/PC/OneDrive/프로젝트/springboot-mountain/src/main/resources/data/";
     public MountainMetaData mountainMetaData = new MountainMetaData();
+
     public HelloController() throws IOException, ParseException {
     }
 
@@ -217,26 +218,6 @@ public class HelloController {
         log.info("login controller");
         return "login";
     }
-
-
-    @GetMapping("/kakao")
-    public String getCI(@RequestParam String code, Model model) throws IOException {
-
-        log.info("kakao controller");
-
-        System.out.println("code = " + code);
-        String access_token = ks.getToken(code);
-        Map<String, Object> userInfo = ks.getUserInfo(access_token);
-        model.addAttribute("code", code);
-        model.addAttribute("access_token", access_token);
-        model.addAttribute("userInfo", userInfo);
-
-        //ci는 비즈니스 전환후 검수신청 -> 허락받아야 수집 가능
-        return "welcome";
-    }
-
-
-
 
 
 
