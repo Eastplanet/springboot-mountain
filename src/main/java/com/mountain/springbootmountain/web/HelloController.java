@@ -211,8 +211,6 @@ public class HelloController {
     }
 
 
-
-
     @GetMapping("/login")
     public String welcome(){
         log.info("login controller");
