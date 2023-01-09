@@ -28,8 +28,7 @@ import java.util.Map;
 @Slf4j
 public class HelloController {
 
-    @Autowired
-    KaKaoService ks;
+
 
     final private String DIR = "C:/Users/PC/OneDrive/프로젝트/springboot-mountain/src/main/resources/data/";
     public MountainMetaData mountainMetaData = new MountainMetaData();
